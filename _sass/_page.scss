@@ -117,11 +117,13 @@
 	padding: 0;
 	list-style: none;
 	li {
+		margin: 0;
+		padding: 0;
 		position: relative;
 		float: left;
 		display: inline-block;
 		width: 33.333%;
-		text-align: center;
+		line-height: 1rem;
 		img {
 			width: 100%;
 		}
@@ -132,11 +134,13 @@
 			font-size: 1.25rem;
 			font-weight: $font-heading-weight;
 			line-height: 1.5rem;
+			text-align: center;
 		}
 		p {
 			position: absolute;
 			top: 7.5rem;
 			left: 0;
+			text-align: center;
 		}
 	}
 }
