@@ -9,7 +9,7 @@ Amongst the many interesting discussions I had at Build Stuff last week was abou
 
 This is actually true of many databases, indeed, postgres gives you a warning about the possible dire consequences of having write caching switched on when you may experience power failure.
 
-You can find out fairly easily whether disk caching is enabled on your disk or not by using the hdparm utility, like this:
+You can find out fairly easily whether disk caching is enabled on your disk or not by using the `hdparm` utility, like this:
 
 ```
 $sudo hdparm -i /dev/sda
@@ -56,4 +56,4 @@ Drive confirms to: unknown:  ATA/ATAP-2,3,4,5,6,7
 
 Obviously here you should replace `/dev/sda` with whichever device your database is on!
 
-Note that simply disabling drive caching is actually not enough to ensure that writes are durable - many drives still misbehave (especially the Intel 520 series SSDs)!
+Note that simply disabling drive caching is actually not enough to ensure that writes are durable – many drives still misbehave (especially the Intel 520 series SSDs)!

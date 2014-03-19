@@ -11,9 +11,9 @@ Last week on a call with someone the question came up about the Event Store abou
 
 Let's start with why you want to update an event? An event is a fact that happened at a point in time with the understanding of it from that point in time, a new understanding of the fact would be a new fact(naturally this does not apply to politicians). To update a previous event is generally a very bad idea. Many want to go back and update events to new versions, this is not the best way to handle versioning!
 
-The preferred mechanism from an event sourcing perspective is to write a new face that supercedes the old fact. As an example I could write that event 7 is a mistake, this is a correction, I might as well put in a comment "this was due to bug #1342" (similar to a journal entry in accounting). There are a few reasons this is a better way of handling things.
+The preferred mechanism from an event sourcing perspective is to write a new face that supercedes the old fact. As an example I could write that event 7 is a mistake, this is a correction, I might as well put in a comment “this was due to bug #1342” (similar to a journal entry in accounting). There are a few reasons this is a better way of handling things.
 
-The first is my ability to look back at my history. If I were to change the fact and I look back at that point in time I have changed what it means. What about others who made decisions at that point in time? I can no longer see what it was they made decisions off of. Beyond this I might have a very valid query to ask your event streams of "how long on average does it take us to find bugs in previous events".
+The first is my ability to look back at my history. If I were to change the fact and I look back at that point in time I have changed what it means. What about others who made decisions at that point in time? I can no longer see what it was they made decisions off of. Beyond this I might have a very valid query to ask your event streams of “how long on average does it take us to find bugs in previous events”.
 
 The second model leads us to two types of queries supported on event streams (as-of vs as-at).
 

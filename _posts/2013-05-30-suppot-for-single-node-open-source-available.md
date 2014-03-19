@@ -5,7 +5,7 @@ author: "Chris Watt"
 layout: blog-post
 ---
 
-Seems there are many of you happy with the Event Store running on a single node (and therefore the open source version) in production but still would like to buy support for it.
+It seems there are many of you happy with the Event Store running on a single node (and therefore the open source version) in production but still would like to buy support for it.
 
 We are therefore happy to oblige.
 
