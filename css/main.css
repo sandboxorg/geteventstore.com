@@ -209,7 +209,8 @@ pre {
   width: 50rem !important;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  color: white; }
   .team-list li {
     margin: 0;
     padding: 0;
