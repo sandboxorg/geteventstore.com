@@ -218,7 +218,8 @@ pre {
     width: 25%;
     line-height: 1rem; }
     .team-list li img, .team-list li h2, .team-list li p {
-      width: 12.333rem; }
+      width: 12.333rem;
+      text-align: center; }
     .team-list li h2 {
       margin: 0;
       font-size: 1.25rem;
