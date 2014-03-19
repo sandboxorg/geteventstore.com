@@ -214,17 +214,13 @@ pre {
   .team-list li {
     margin: 0;
     padding: 0;
-    position: relative;
     float: left;
     display: inline-block;
     width: 25%;
     line-height: 1rem; }
-    .team-list li img {
+    .team-list li img, .team-list li h2, .team-list li p {
       width: 12.333rem; }
     .team-list li h2 {
-      position: absolute;
-      bottom: 1.5rem;
-      left: 0;
       width: 100%;
       background: rgba(0, 0, 0, 0.5);
       font-size: 1rem;
@@ -232,9 +228,6 @@ pre {
       line-height: 1.5rem;
       text-align: center; }
     .team-list li p {
-      position: absolute;
-      bottom: 0;
-      left: 0;
       width: 100%;
       background: rgba(0, 0, 0, 0.5);
       font-size: 0.875rem;
