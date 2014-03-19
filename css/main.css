@@ -210,12 +210,16 @@ pre {
   padding: 0;
   list-style: none; }
   .team-list li {
+    position: relative;
     float: left;
     display: inline-block;
     width: 33.333%; }
     .team-list li img {
       width: 100%; }
     .team-list li h2 {
+      position: absolute;
+      top: 4.5rem;
+      left: 0.75rem;
       font-size: 1.25rem;
       font-weight: 600;
       line-height: 1.5rem; }
