@@ -206,6 +206,7 @@ pre {
   line-height: 1.5rem; }
 
 .team-list {
+  width: 50rem;
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -215,7 +216,7 @@ pre {
     position: relative;
     float: left;
     display: inline-block;
-    width: 33.333%;
+    width: 25%;
     line-height: 1rem; }
     .team-list li img {
       width: 100%; }

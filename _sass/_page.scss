@@ -113,6 +113,7 @@
 }
 
 .team-list {
+	width: 50rem;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -122,7 +123,7 @@
 		position: relative;
 		float: left;
 		display: inline-block;
-		width: 33.333%;
+		width: 25%;
 		line-height: 1rem;
 		img {
 			width: 100%;
