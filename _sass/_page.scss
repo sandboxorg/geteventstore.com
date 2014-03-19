@@ -1,0 +1,113 @@
+.container {
+	width: 60rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	@include clearfix;
+}
+
+.page-header {
+	padding: 3rem 1.5rem;
+	text-align: center;
+	p {
+		width: 35 * 1.25rem;
+		margin: 1.5rem auto;
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+	a {
+		color: $grey-light;
+		&:focus, &:hover {
+			color: $white;
+		}
+	}
+}
+
+.page-header--support {
+	@include shadowbox($grey-dark, $white);
+}
+
+.page-header--features {
+	@include shadowbox($grey-dark, $white);
+}
+
+.page-header--downloads {
+	@include shadowbox($grey-dark, $white);
+}
+
+.page-header--blog {
+	@include shadowbox($grey-dark, $white);
+}
+
+.page-header--community {
+	@include shadowbox($grey-dark, $white);
+}
+
+.page-header--homepage {
+	@include shadowbox($grey-dark, $white);
+	margin-bottom: 1.5rem;
+	padding: 6rem 1.5rem;
+	text-align: left;
+	background-image: linear-gradient(0deg, transparentize($grey-dark, 0.85) 0%, transparentize($grey-dark, 0.85) 100%),
+		url('../images/ouro.svg');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	h1, p {
+		margin: 0 0 1.5rem 1.5rem;
+	}
+	.call-to-action {
+		text-align: left;
+	}
+	.btn {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+	.btn--primary {
+		color: $white;
+	}
+	.btn--secondary {
+		border-color: $grey-light;
+		color: $white-off;
+		&:focus, &:hover {
+			border-color: $white;
+			color: $white;
+		}
+	}
+}
+
+.page-main {
+	margin: 1.5rem 0;
+	padding: 1.5rem;
+	@include shadowbox($white, $grey);
+	@include clearfix;
+	ul {
+		width: 35rem;
+		margin: 1.5rem auto;
+		padding: 0;
+	}
+}
+
+.page-main--blog {
+	h1 {
+		margin-top: 3rem;
+		color: $grey-dark;
+	}
+	figure {
+		width: 45rem;
+		margin: 1.5rem auto;
+		padding: 0;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.blog-meta {
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+}
+
+.blog-list-title {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}

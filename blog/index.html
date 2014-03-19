@@ -1,0 +1,16 @@
+---
+title: "Developer Blog"
+---
+
+{% include header.html %}
+		<div class="page-header page-header--blog">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div class="page-main page-main--blog">
+			{% for post in site.posts %}
+				<h1 class="blog-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<p class="blog-meta">By {{ post.author }} on {{ post.date | date_to_long_string }}</p>
+			{% endfor %}
+		</div>
+	</div>
+{% include footer.html %}

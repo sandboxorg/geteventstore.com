@@ -1,0 +1,9 @@
+.table-events {
+	// width: 45rem;
+	td {
+		white-space: nowrap;
+		&:first-child {
+			white-space: normal;
+		}
+	}
+}
