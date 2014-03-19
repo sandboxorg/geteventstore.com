@@ -679,6 +679,16 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/andrii-nakryiko.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11571,
+		"inputAbbreviatedPath": "\/images\/andrii-nakryiko.png",
+		"outputAbbreviatedPath": "\/images\/andrii-nakryiko.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blog-es3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -706,6 +716,96 @@
 		"initialSize": 37702,
 		"inputAbbreviatedPath": "\/images\/blog-power-switch.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-power-switch.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/chris-ware.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13023,
+		"inputAbbreviatedPath": "\/images\/chris-ware.png",
+		"outputAbbreviatedPath": "\/images\/chris-ware.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/chris-watt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14086,
+		"inputAbbreviatedPath": "\/images\/chris-watt.png",
+		"outputAbbreviatedPath": "\/images\/chris-watt.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dan-leech.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14286,
+		"inputAbbreviatedPath": "\/images\/dan-leech.png",
+		"outputAbbreviatedPath": "\/images\/dan-leech.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/eleks.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5910,
+		"inputAbbreviatedPath": "\/images\/eleks.png",
+		"outputAbbreviatedPath": "\/images\/eleks.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/greg-young.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13333,
+		"inputAbbreviatedPath": "\/images\/greg-young.png",
+		"outputAbbreviatedPath": "\/images\/greg-young.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/james-nugent.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14715,
+		"inputAbbreviatedPath": "\/images\/james-nugent.png",
+		"outputAbbreviatedPath": "\/images\/james-nugent.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kostya-pyatkivskyy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14493,
+		"inputAbbreviatedPath": "\/images\/kostya-pyatkivskyy.png",
+		"outputAbbreviatedPath": "\/images\/kostya-pyatkivskyy.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/rich-knight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16474,
+		"inputAbbreviatedPath": "\/images\/rich-knight.png",
+		"outputAbbreviatedPath": "\/images\/rich-knight.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yuriy-solodkyy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18071,
+		"inputAbbreviatedPath": "\/images\/yuriy-solodkyy.png",
+		"outputAbbreviatedPath": "\/images\/yuriy-solodkyy.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
