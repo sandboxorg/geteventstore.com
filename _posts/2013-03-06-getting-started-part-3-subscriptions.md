@@ -14,7 +14,7 @@ You can subscribe either to an individual stream, or to all streams. For each of
 - Live-only subscriptions
 - Catch-up subscriptions
 
-<h2>The basics of subscriptions</h2>
+## The basics of subscriptions
 
 You can subscribe to any stream, including system streams (e.g. `$stats-127.0.0.1:2113`), and streams created by projections (see Greg’s series about repartitioning event streams using `linkTo`, and producing new events using `emit`). When an event is written to a stream to which you are subscribed, a callback to register at the time of subscription is called.
 
@@ -30,11 +30,11 @@ To represent events delivered over a subscription, we have a type named `Resolve
 
 A subscription can be dropped, either because the `EventStoreConnection` which owns it becomes disconnected, because the client is not servicing the subscription fast enough (i.e. the internal queues back up too much), or because of an internal error. There is a second callback for handling this.
 
-<h2>Live-only subscriptions</h2>
+## Live-only subscriptions
 
 First we’ll look at live-only subscriptions, both to an individual stream and to all streams. This delivers events written from the point of subscribing until either it is unsubscribed or the subscription is dropped.
 
-<h3>Single Stream</h3>
+### Single Stream
 
 To subscribe to an individual stream, you use the `SubscribeToStream` method on `EventStoreConnection`:
 
@@ -65,11 +65,11 @@ A catch-up subscription works in a very similar way to a live-only subscription,
 
 This mechanism allows you to build a subscriber which will get all events in a stream, even allowing for it going down, provided it has a way to record the last point it processed. In many cases, this can be easily achieved by storing the position transactionally with the work performed (for example, if you're persisting read models to SQL Server tables, you could store the last processed position in another table and use a database transaction to atomically write the result and the last processed position). This allows you to avoid distributed transactions, and to avoid having to make your subscribers idempotent.
 
-<h2>Catch-up Subscriptions</h2>
+## Catch-up Subscriptions
 
 Catch-up subscriptions are made using a similar mechanism to live-only subscriptions.
 
-<h3>Single Stream</h3>
+### Single Stream
 
 ```
 public EventStoreStreamCatchUpSubscription SubscribeToStreamFrom(string stream, int? fromEventNumberExclusive, bool resolveLinkTos, Action<EventStoreCatchUpSubscription, ResolvedEvent> eventAppeared, Action<EventStoreCatchUpSubscription, string, Exception> subscriptionDropped = null)
