@@ -222,7 +222,7 @@ pre {
       width: 100%; }
     .team-list li h2 {
       position: absolute;
-      top: 6rem;
+      top: 7.5rem;
       left: 0;
       width: 100%;
       font-size: 1.25rem;
@@ -231,7 +231,7 @@ pre {
       text-align: center; }
     .team-list li p {
       position: absolute;
-      top: 7.5rem;
+      top: 9rem;
       left: 0;
       width: 100%;
       text-align: center; }
