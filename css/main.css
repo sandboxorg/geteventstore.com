@@ -223,6 +223,7 @@ pre {
       position: absolute;
       top: 6rem;
       left: 0;
+      width: 100%;
       font-size: 1.25rem;
       font-weight: 600;
       line-height: 1.5rem;
@@ -231,6 +232,7 @@ pre {
       position: absolute;
       top: 7.5rem;
       left: 0;
+      width: 100%;
       text-align: center; }
 
 .lead {
