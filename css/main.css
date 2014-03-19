@@ -207,7 +207,7 @@ pre {
 
 .team-list {
   width: 50rem !important;
-  margin: 1.5rem 0 0 !important;
+  margin: 3rem auto 0 !important;
   padding: 0;
   list-style: none; }
   .team-list li {
