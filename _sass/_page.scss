@@ -111,3 +111,22 @@
 	font-size: 1.25rem;
 	line-height: 1.5rem;
 }
+
+.team-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		float: left;
+		display: inline-block;
+		width: 33.333%;
+		img {
+			width: 100%;
+		}
+		h2 {
+			font-size: 1.25rem;
+			font-weight: $font-heading-weight;
+			line-height: 1.5rem;
+		}
+	}
+}

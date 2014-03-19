@@ -205,6 +205,21 @@ pre {
   font-size: 1.25rem;
   line-height: 1.5rem; }
 
+.team-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .team-list li {
+    float: left;
+    display: inline-block;
+    width: 33.333%; }
+    .team-list li img {
+      width: 100%; }
+    .team-list li h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.5rem; }
+
 .lead {
   font-size: 1.25rem;
   line-height: 1.5rem; }
