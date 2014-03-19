@@ -221,17 +221,12 @@ pre {
     .team-list li img, .team-list li h2, .team-list li p {
       width: 12.333rem; }
     .team-list li h2 {
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      font-size: 1rem;
+      margin: 0;
+      font-size: 1.25rem;
       font-weight: 600;
-      line-height: 1.5rem;
-      text-align: center; }
+      line-height: 1.5rem; }
     .team-list li p {
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      font-size: 0.875rem;
-      text-align: center; }
+      margin: 0 0 1.5rem; }
 
 .lead {
   font-size: 1.25rem;

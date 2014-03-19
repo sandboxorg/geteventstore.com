@@ -129,18 +129,13 @@
 			width: 12.333rem;
 		}
 		h2 {
-			width: 100%;
-			background: rgba(0,0,0,0.5);
-			font-size: 1rem;
+			margin: 0;
+			font-size: 1.25rem;
 			font-weight: $font-heading-weight;
 			line-height: 1.5rem;
-			text-align: center;
 		}
 		p {
-			width: 100%;
-			background: rgba(0,0,0,0.5);
-			font-size: 0.875rem;
-			text-align: center;
+			margin: 0 0 1.5rem;
 		}
 	}
 }
