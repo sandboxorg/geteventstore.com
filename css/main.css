@@ -213,16 +213,21 @@ pre {
     position: relative;
     float: left;
     display: inline-block;
-    width: 33.333%; }
+    width: 33.333%;
+    text-align: center; }
     .team-list li img {
       width: 100%; }
     .team-list li h2 {
       position: absolute;
-      top: 4.5rem;
-      left: 0.75rem;
+      top: 6rem;
+      left: 0;
       font-size: 1.25rem;
       font-weight: 600;
       line-height: 1.5rem; }
+    .team-list li p {
+      position: absolute;
+      top: 7.5rem;
+      left: 0; }
 
 .lead {
   font-size: 1.25rem;
