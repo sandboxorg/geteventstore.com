@@ -1,6 +1,6 @@
 ---
 title: "Event Store 3.0.0 Release Candidate available"
-date: 20-03-20T12:00Z
+date: 2014-03-20T12:00Z
 author: "James Nugent"
 layout: blog-post
 ---
