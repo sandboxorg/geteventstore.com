@@ -27,7 +27,7 @@ There have been over 500 commits since our last release. We're preparing a full 
 
 We're currently experiencing problems with the mono garbage collector failing under heavy load. Ideally we'd like to get this resolved before a final release, but the native stack traces being produced are deep inside sgen. We're working with the mono team to get this resolved, but be aware that it's advisable to run under mono with a supervisor (for example, <a href="http://supervisord.org">supervisord</a>) in case of crashes.
 
-Another issue we're aware of and will be resolving before the release is the forwarding of some projections commands from a slave node to the master node.
+Another issue we're aware of and will be resolving before the release is the forwarding of some projections commands from a slave node to the master node. This is mostly a UI problem, and does not affect the internal working of projections. The workaround at this point is to issue commands on the UI of whichever node is currently master. This will be fixed prior to the release of v3.0.0.
 
 If you find anything else, please <a href="https://groups.google.com/forum/#!forum/event-store">let us know!</a>!
 
