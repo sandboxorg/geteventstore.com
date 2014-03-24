@@ -187,6 +187,20 @@ pre {
     margin: 1.5rem auto;
     padding: 0; }
 
+.page-main--wide {
+  margin: 1.5rem 0;
+  padding: 1.5rem 3rem;
+  background: white;
+  color: #636472;
+  border-radius: 0.125rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(128, 128, 128, 0.125), 0 0 1px #bfbfbf; }
+  .page-main--wide:after {
+    content: " ";
+    display: table;
+    clear: both; }
+  .page-main--wide h2 {
+    max-width: 100%; }
+
 .page-main--blog h1 {
   margin-top: 3rem;
   color: #435261; }
@@ -227,6 +241,32 @@ pre {
       line-height: 1.5rem; }
     .team-list li p {
       margin: 0 0 1.5rem; }
+
+.activity-tiles {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .activity-tiles:after {
+    content: " ";
+    display: table;
+    clear: both; }
+  .activity-tiles li {
+    float: left;
+    display: inline-block;
+    width: 16.666%;
+    text-align: center; }
+
+.activity-number {
+  display: block;
+  padding: 0.75rem 0 0;
+  color: #636472;
+  font-size: 2.5rem;
+  line-height: 3rem; }
+
+.activity-label {
+  display: block;
+  padding: 0 0 1.5rem;
+  font-weight: 600; }
 
 .lead {
   font-size: 1.25rem;
