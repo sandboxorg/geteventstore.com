@@ -1274,6 +1274,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/chris-ware-original.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143524,
+		"inputAbbreviatedPath": "\/images\/chris-ware-original.jpg",
+		"outputAbbreviatedPath": "\/images\/chris-ware-original.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/chris-ware.png": {
 		"fileType": 32768,
 		"ignore": 0,
