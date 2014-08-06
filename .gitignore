@@ -9,3 +9,6 @@
 # Sass and Jekyll
 .sass*
 _site
+
+node_modules
+dist
