@@ -2,4 +2,4 @@ name: "Event Store"
 description: "The open-source, functional database with Complex Event Processing in JavaScript."
 url: "http://geteventstore.com"
 permalink: /blog/:year:month:day/:title/index.html
-markdown: rdiscount
+markdown: kramdown
