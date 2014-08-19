@@ -2,6 +2,23 @@
 title: "Homepage"
 ---
 
+<style>
+.home-banner a {
+    display: block;
+    margin: -0.75rem 0 1.5rem;
+    padding: 0.75rem;
+    background: #6BA300;
+    color: #FFF;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+.home-banner a:focus, .home-banner a:hover {
+    background: #5A8A00;
+    color: #FFF;
+}
+</style>
+
 {% include header.html %}
 		<div class="page-header page-header--homepage">
 			<h1>The open-source, functional database with Complex Event Processing in JavaScript.</h1>
@@ -9,7 +26,12 @@ title: "Homepage"
 				<a href="{{ site.url }}/features" class="btn btn--primary">See what Event Store can do</a>
 				<a href="https://github.com/eventstore/eventstore/wiki/Event-Sourcing-Basics" class="btn btn--secondary">Learn about event sourcing</a>
 			</p>
-		</div><!-- 
+		</div>
+        <div class-"page-main--wide">
+            <div class="home-banner">
+                <a href="http://geteventstore.com/two-years-on/">Ouro turns two this year! Come and celebrate with us in London, UK on 17th September 2014.</a>
+            </div>
+        </div><!-- 
 		<div class="page-main--wide">
 			<ul class="activity-tiles">
 				<li>
