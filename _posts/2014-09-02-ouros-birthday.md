@@ -1,6 +1,6 @@
 ---
 title: "Ouro's Birthday!"
-date: 2014-09-01T12:00Z
+date: 2014-09-02T12:00Z
 author: "Greg Young"
 layout: blog-post
 ---
