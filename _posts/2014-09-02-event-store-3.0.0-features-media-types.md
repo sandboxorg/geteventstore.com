@@ -25,7 +25,7 @@ more convenient for HTTP-based clients.
 Since version 1, you could append events to a stream by posting to the stream
 resource with the request body in a format which looks like this:
 
-```json
+{% highlight json %}
 [
     {
         "eventId": "fbf4a1a1-b4a3-4dfe-a01f-ec52c34e16e4",
@@ -42,7 +42,7 @@ resource with the request body in a format which looks like this:
         }
     },
 ]
-```
+{% endhighlight %}
 
 As of version 3.0.0, you can still use this exact same format, but this is now
 of content type `application/vnd.eventstore.events+json`, rather than
