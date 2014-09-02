@@ -3,4 +3,4 @@ description: "The open-source, functional database with Complex Event Processing
 url: "http://geteventstore.com"
 permalink: /blog/:year:month:day/:title/index.html
 markdown: kramdown
-highlighter: pygments
+pygments: true
