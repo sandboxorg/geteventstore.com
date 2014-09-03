@@ -25,7 +25,7 @@ more convenient for HTTP-based clients.
 Since version 1, you could append events to a stream by posting to the stream
 resource with the request body in a format which looks like this:
 
-{% highlight json %}
+```json
 [
     {
         "eventId": "fbf4a1a1-b4a3-4dfe-a01f-ec52c34e16e4",
@@ -42,7 +42,7 @@ resource with the request body in a format which looks like this:
         }
     },
 ]
-{% endhighlight %}
+```
 
 As of version 3.0.0, you can still use this exact same format, but this is now
 of content type `application/vnd.eventstore.events+json`, rather than
@@ -85,6 +85,7 @@ pattern.
 Posting to a stream resource with a content type of `application/json`, but without an event ID will redirect you to a URI including a server-generated Event ID, to which you can retry indefinitely:
 
 *Request*
+
 ```http
 POST http://localhost:2113/streams/myStream HTTP/1.1
 Content-Type: application/json
@@ -98,6 +99,7 @@ Content-Length: 30
 ```
 
 *Response*
+
 ```http
 HTTP/1.1 307
 Content-Length: 28
@@ -116,6 +118,7 @@ Forwarding to idempotent URI
 Following the redirect to the URI to which you are redirected will then write the event:
 
 *Request*
+
 ```
 POST http://localhost:2113/streams/myStream/incoming/6f7902ca-5a43-4518-9f17-aaab80f2acdf HTTP/1.1
 Host: localhost:2113
@@ -129,6 +132,7 @@ ES-EventType: SomeEvent
 ```
 
 *Response*
+
 ```http
 HTTP/1.1 201 Created
 Transfer-Encoding: chunked
