@@ -1,5 +1,5 @@
 ---
-title: "Event Store 3.0.0 Features - New Media Types"
+title: "Event Store 3.0.0 - New Media Types"
 date: 2014-09-02T13:00Z
 author: "James Nugent"
 layout: blog-post

@@ -1,5 +1,5 @@
 ---
-title: "Event Store 3.0.0 Features - In-Memory Mode"
+title: "Event Store 3.0.0 - In-Memory Mode"
 date: 2014-09-01T12:00Z
 author: "James Nugent"
 layout: blog-post
