@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16877",
+"creatorBuild": "17682",
 "files": {
 	"\/_includes\/analytics.html": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/analytics.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/fonts.html": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/fonts.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/footer.html": {
@@ -24,6 +26,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/footer.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_includes\/header.html": {
@@ -32,6 +35,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/header.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_layouts\/blog-post.html": {
@@ -40,6 +44,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/blog-post.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_layouts\/blog.html": {
@@ -48,6 +53,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/blog.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_layouts\/redirect.html": {
@@ -56,6 +62,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/redirect.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-09-18-greg-young-launches-event-store.md": {
@@ -67,6 +74,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-09-18-greg-young-launches-event-store.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-09-18-greg-young-launches-event-store.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-09-21-a-useful-piece-of-code-1.md": {
@@ -78,6 +86,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-09-21-a-useful-piece-of-code-1.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-09-21-a-useful-piece-of-code-1.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-09-26-amazon-ec2.md": {
@@ -89,6 +98,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-09-26-amazon-ec2.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-09-26-amazon-ec2.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-09-26-future-blogs.md": {
@@ -100,6 +110,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-09-26-future-blogs.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-09-26-future-blogs.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-09-27-using-js-projections-from-the-browser.md": {
@@ -111,6 +122,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-09-27-using-js-projections-from-the-browser.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-09-27-using-js-projections-from-the-browser.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-10-05-special-offer.md": {
@@ -122,6 +134,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-10-05-special-offer.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-10-05-special-offer.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-11-19-oredev-developer-conference-a-deep-look-into-the-event-store.md": {
@@ -133,6 +146,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-11-19-oredev-developer-conference-a-deep-look-into-the-event-store.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-11-19-oredev-developer-conference-a-deep-look-into-the-event-store.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-11-21-applications-and-ievent.md": {
@@ -144,6 +158,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-11-21-applications-and-ievent.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-11-21-applications-and-ievent.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-12-24-its-competition-time.md": {
@@ -155,6 +170,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-12-24-its-competition-time.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-12-24-its-competition-time.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2012-12-25-debugging-support.md": {
@@ -166,6 +182,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2012-12-25-debugging-support.md",
 		"outputAbbreviatedPath": "\/_posts\/2012-12-25-debugging-support.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-10-the-cost-of-creating-a-stream.md": {
@@ -177,6 +194,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-10-the-cost-of-creating-a-stream.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-10-the-cost-of-creating-a-stream.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-12-projections-1-theory.md": {
@@ -188,6 +206,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-12-projections-1-theory.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-12-projections-1-theory.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-13-projections-2-a-simple-sep-projection.md": {
@@ -199,6 +218,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-13-projections-2-a-simple-sep-projection.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-13-projections-2-a-simple-sep-projection.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-15-projections-3-using-state.md": {
@@ -210,6 +230,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-15-projections-3-using-state.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-15-projections-3-using-state.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-17-projections-intermission.md": {
@@ -221,6 +242,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-17-projections-intermission.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-17-projections-intermission.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-18-projections-4-event-matching.md": {
@@ -232,6 +254,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-18-projections-4-event-matching.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-18-projections-4-event-matching.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-18-projections-5-indexing.md": {
@@ -243,6 +266,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-18-projections-5-indexing.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-18-projections-5-indexing.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-18-projections-vs-rxjs-vs-etc.md": {
@@ -254,6 +278,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-18-projections-vs-rxjs-vs-etc.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-18-projections-vs-rxjs-vs-etc.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-20-getting-started-part-1-introduction.md": {
@@ -265,6 +290,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-20-getting-started-part-1-introduction.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-20-getting-started-part-1-introduction.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-20-getting-started-part-2-implementing-the-commondomain-repository-interface.md": {
@@ -276,6 +302,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-20-getting-started-part-2-implementing-the-commondomain-repository-interface.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-20-getting-started-part-2-implementing-the-commondomain-repository-interface.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-02-27-projections-6-an-indexing-use-case.md": {
@@ -287,6 +314,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-02-27-projections-6-an-indexing-use-case.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-02-27-projections-6-an-indexing-use-case.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-03-01-ensuring-writes-multi-node-replication.md": {
@@ -298,6 +326,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-03-01-ensuring-writes-multi-node-replication.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-03-01-ensuring-writes-multi-node-replication.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-03-06-getting-started-part-3-subscriptions.md": {
@@ -309,6 +338,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-03-06-getting-started-part-3-subscriptions.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-03-06-getting-started-part-3-subscriptions.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-03-09-projections-7-multiple-streams.md": {
@@ -320,6 +350,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-03-09-projections-7-multiple-streams.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-03-09-projections-7-multiple-streams.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-03-09-projections-8-internal-indexing.md": {
@@ -331,6 +362,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-03-09-projections-8-internal-indexing.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-03-09-projections-8-internal-indexing.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-04-25-updated-repository-sample-code.md": {
@@ -342,6 +374,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-04-25-updated-repository-sample-code.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-04-25-updated-repository-sample-code.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-05-28-why-cant-i-update-an-event.md": {
@@ -353,6 +386,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-05-28-why-cant-i-update-an-event.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-05-28-why-cant-i-update-an-event.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-05-30-suppot-for-single-node-open-source-available.md": {
@@ -364,6 +398,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-05-30-suppot-for-single-node-open-source-available.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-05-30-suppot-for-single-node-open-source-available.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-07-07-catch-up-subscriptions-with-the-event-store.md": {
@@ -375,6 +410,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-07-07-catch-up-subscriptions-with-the-event-store.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-07-07-catch-up-subscriptions-with-the-event-store.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-07-08-testing-event-store-ha.md": {
@@ -386,6 +422,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-07-08-testing-event-store-ha.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-07-08-testing-event-store-ha.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-07-09-murphy.md": {
@@ -397,6 +434,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-07-09-murphy.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-07-09-murphy.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-07-19-v2-0-binaries-released.md": {
@@ -408,6 +446,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-07-19-v2-0-binaries-released.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-07-19-v2-0-binaries-released.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-08-01-version-2-0-1-released.md": {
@@ -419,6 +458,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-08-01-version-2-0-1-released.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-08-01-version-2-0-1-released.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2013-12-18-disabling-disk-caching-in-ubuntu.md": {
@@ -430,6 +470,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2013-12-18-disabling-disk-caching-in-ubuntu.md",
 		"outputAbbreviatedPath": "\/_posts\/2013-12-18-disabling-disk-caching-in-ubuntu.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_posts\/2014-03-20-event-store-3.0.0-release-candidate-available.md": {
@@ -441,6 +482,43 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2014-03-20-event-store-3.0.0-release-candidate-available.md",
 		"outputAbbreviatedPath": "\/_posts\/2014-03-20-event-store-3.0.0-release-candidate-available.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2014-09-01-event-store-3.0.0-features-in-memory-db.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-09-01-event-store-3.0.0-features-in-memory-db.md",
+		"outputAbbreviatedPath": "\/_posts\/2014-09-01-event-store-3.0.0-features-in-memory-db.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2014-09-02-event-store-3.0.0-features-media-types.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-09-02-event-store-3.0.0-features-media-types.md",
+		"outputAbbreviatedPath": "\/_posts\/2014-09-02-event-store-3.0.0-features-media-types.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2014-09-02-ouros-birthday.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-09-02-ouros-birthday.md",
+		"outputAbbreviatedPath": "\/_posts\/2014-09-02-ouros-birthday.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_sass\/_base.scss": {
@@ -452,6 +530,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_base.scss",
 		"outputAbbreviatedPath": "\/css\/_base.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -467,6 +546,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_media.scss",
 		"outputAbbreviatedPath": "\/css\/_media.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -482,6 +562,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_mixins.scss",
 		"outputAbbreviatedPath": "\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -497,6 +578,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_page-community.scss",
 		"outputAbbreviatedPath": "\/css\/_page-community.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -512,6 +594,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_page.scss",
 		"outputAbbreviatedPath": "\/css\/_page.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -527,6 +610,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_sidebar.scss",
 		"outputAbbreviatedPath": "\/css\/_sidebar.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -542,6 +626,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_site-footer.scss",
 		"outputAbbreviatedPath": "\/css\/_site-footer.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -557,11 +642,21 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_site-header.scss",
 		"outputAbbreviatedPath": "\/css\/_site-header.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/_sass\/_syntax.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/_syntax.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_sass\/_typography.scss": {
 		"createSourceMap": 0,
@@ -572,6 +667,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_typography.scss",
 		"outputAbbreviatedPath": "\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -587,6 +683,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_variables.scss",
 		"outputAbbreviatedPath": "\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -602,8 +699,9 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -614,6 +712,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/about\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/apple-touch-icon.png": {
@@ -623,6 +722,38 @@
 		"initialSize": 31542,
 		"inputAbbreviatedPath": "\/_site\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/_site\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/appliances\/appliance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47204,
+		"inputAbbreviatedPath": "\/_site\/appliances\/appliance.jpg",
+		"outputAbbreviatedPath": "\/_site\/appliances\/appliance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/appliances\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/appliances\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/ouro-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16759,
+		"inputAbbreviatedPath": "\/_site\/assets\/ouro-200.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/ouro-200.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -632,6 +763,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20120918\/greg-young-launches-event-store\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20120921\/a-useful-piece-of-code-1\/index.html": {
@@ -640,6 +772,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20120921\/a-useful-piece-of-code-1\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20120926\/amazon-ec2\/index.html": {
@@ -648,6 +781,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20120926\/amazon-ec2\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20120926\/future-blogs\/index.html": {
@@ -656,6 +790,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20120926\/future-blogs\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20120927\/using-js-projections-from-the-browser\/index.html": {
@@ -664,6 +799,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20120927\/using-js-projections-from-the-browser\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20121005\/special-offer\/index.html": {
@@ -672,6 +808,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20121005\/special-offer\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20121119\/oredev-developer-conference-a-deep-look-into-the-event-store\/index.html": {
@@ -680,6 +817,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20121119\/oredev-developer-conference-a-deep-look-into-the-event-store\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20121121\/applications-and-ievent\/index.html": {
@@ -688,6 +826,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20121121\/applications-and-ievent\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20121224\/its-competition-time\/index.html": {
@@ -696,6 +835,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20121224\/its-competition-time\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20121225\/debugging-support\/index.html": {
@@ -704,6 +844,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20121225\/debugging-support\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130210\/the-cost-of-creating-a-stream\/index.html": {
@@ -712,6 +853,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130210\/the-cost-of-creating-a-stream\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130212\/projections-1-theory\/index.html": {
@@ -720,6 +862,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130212\/projections-1-theory\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130213\/projections-2-a-simple-sep-projection\/index.html": {
@@ -728,6 +871,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130213\/projections-2-a-simple-sep-projection\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130215\/projections-3-using-state\/index.html": {
@@ -736,6 +880,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130215\/projections-3-using-state\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130217\/projections-intermission\/index.html": {
@@ -744,6 +889,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130217\/projections-intermission\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130218\/projections-4-event-matching\/index.html": {
@@ -752,6 +898,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130218\/projections-4-event-matching\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130218\/projections-5-indexing\/index.html": {
@@ -760,6 +907,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130218\/projections-5-indexing\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130218\/projections-vs-rxjs-vs-etc\/index.html": {
@@ -768,6 +916,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130218\/projections-vs-rxjs-vs-etc\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130220\/getting-started-part-1-introduction\/index.html": {
@@ -776,6 +925,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130220\/getting-started-part-1-introduction\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130220\/getting-started-part-2-implementing-the-commondomain-repository-interface\/index.html": {
@@ -784,6 +934,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130220\/getting-started-part-2-implementing-the-commondomain-repository-interface\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130227\/projections-6-an-indexing-use-case\/index.html": {
@@ -792,6 +943,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130227\/projections-6-an-indexing-use-case\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130301\/ensuring-writes-multi-node-replication\/index.html": {
@@ -800,6 +952,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130301\/ensuring-writes-multi-node-replication\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130306\/getting-started-part-3-subscriptions\/index.html": {
@@ -808,6 +961,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130306\/getting-started-part-3-subscriptions\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130309\/projections-7-multiple-streams\/index.html": {
@@ -816,6 +970,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130309\/projections-7-multiple-streams\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130309\/projections-8-internal-indexing\/index.html": {
@@ -824,6 +979,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130309\/projections-8-internal-indexing\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130425\/updated-repository-sample-code\/index.html": {
@@ -832,6 +988,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130425\/updated-repository-sample-code\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130528\/why-cant-i-update-an-event\/index.html": {
@@ -840,6 +997,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130528\/why-cant-i-update-an-event\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130530\/suppot-for-single-node-open-source-available\/index.html": {
@@ -848,6 +1006,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130530\/suppot-for-single-node-open-source-available\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130707\/catch-up-subscriptions-with-the-event-store\/index.html": {
@@ -856,6 +1015,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130707\/catch-up-subscriptions-with-the-event-store\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130708\/testing-event-store-ha\/index.html": {
@@ -864,6 +1024,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130708\/testing-event-store-ha\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130709\/murphy\/index.html": {
@@ -872,6 +1033,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130709\/murphy\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130719\/v2-0-binaries-released\/index.html": {
@@ -880,6 +1042,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130719\/v2-0-binaries-released\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20130801\/version-2-0-1-released\/index.html": {
@@ -888,6 +1051,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20130801\/version-2-0-1-released\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20131218\/disabling-disk-caching-in-ubuntu\/index.html": {
@@ -896,6 +1060,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20131218\/disabling-disk-caching-in-ubuntu\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/20140320\/event-store-3.0.0-release-candidate-available\/index.html": {
@@ -904,6 +1069,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/20140320\/event-store-3.0.0-release-candidate-available\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/blog\/index.html": {
@@ -912,6 +1078,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/community\/index.html": {
@@ -920,6 +1087,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/community\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/main.css": {
@@ -928,7 +1096,37 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/dist\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/dist\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/dist\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/dist\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/dist\/js\/jquery-2.1.1.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/dist\/js\/jquery-2.1.1.js",
+		"outputAbbreviatedPath": "\/_site\/dist\/js\/min\/jquery-2.1.1-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_site\/docs\/index.html": {
 		"fileType": 8192,
@@ -936,6 +1134,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/docs\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/documentation\/index.html": {
@@ -944,6 +1143,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/documentation\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/downloads\/index.html": {
@@ -952,6 +1152,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/downloads\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/enterprise\/index.html": {
@@ -960,6 +1161,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/enterprise\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/features\/index.html": {
@@ -968,17 +1170,8 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/features\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/images\/andrii-nakryiko.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6391,
-		"inputAbbreviatedPath": "\/_site\/images\/andrii-nakryiko.png",
-		"outputAbbreviatedPath": "\/_site\/images\/andrii-nakryiko.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/_site\/images\/blog-es3.jpg": {
 		"fileType": 16384,
@@ -987,6 +1180,7 @@
 		"initialSize": 78546,
 		"inputAbbreviatedPath": "\/_site\/images\/blog-es3.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/blog-es3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -997,6 +1191,7 @@
 		"initialSize": 78299,
 		"inputAbbreviatedPath": "\/_site\/images\/blog-ha-setup.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/blog-ha-setup.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1007,6 +1202,7 @@
 		"initialSize": 37702,
 		"inputAbbreviatedPath": "\/_site\/images\/blog-power-switch.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/blog-power-switch.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1017,6 +1213,7 @@
 		"initialSize": 136080,
 		"inputAbbreviatedPath": "\/_site\/images\/chris-ware-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/chris-ware-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1027,16 +1224,7 @@
 		"initialSize": 19180,
 		"inputAbbreviatedPath": "\/_site\/images\/chris-ware.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/chris-ware.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-ware.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8049,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-ware.png",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-ware.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1047,6 +1235,7 @@
 		"initialSize": 1.08516e+06,
 		"inputAbbreviatedPath": "\/_site\/images\/chris-watt-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/chris-watt-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1057,16 +1246,7 @@
 		"initialSize": 18501,
 		"inputAbbreviatedPath": "\/_site\/images\/chris-watt.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/chris-watt.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-watt.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8332,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-watt.png",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-watt.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1077,6 +1257,7 @@
 		"initialSize": 391754,
 		"inputAbbreviatedPath": "\/_site\/images\/dan-leech-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/dan-leech-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1087,26 +1268,7 @@
 		"initialSize": 20605,
 		"inputAbbreviatedPath": "\/_site\/images\/dan-leech.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/dan-leech.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/dan-leech.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8691,
-		"inputAbbreviatedPath": "\/_site\/images\/dan-leech.png",
-		"outputAbbreviatedPath": "\/_site\/images\/dan-leech.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/eleks.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4114,
-		"inputAbbreviatedPath": "\/_site\/images\/eleks.png",
-		"outputAbbreviatedPath": "\/_site\/images\/eleks.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1117,6 +1279,7 @@
 		"initialSize": 68379,
 		"inputAbbreviatedPath": "\/_site\/images\/greg-young-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/greg-young-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1127,16 +1290,7 @@
 		"initialSize": 15039,
 		"inputAbbreviatedPath": "\/_site\/images\/greg-young.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/greg-young.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/greg-young.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7933,
-		"inputAbbreviatedPath": "\/_site\/images\/greg-young.png",
-		"outputAbbreviatedPath": "\/_site\/images\/greg-young.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1147,6 +1301,7 @@
 		"initialSize": 90717,
 		"inputAbbreviatedPath": "\/_site\/images\/james-nugent-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/james-nugent-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1157,16 +1312,7 @@
 		"initialSize": 12736,
 		"inputAbbreviatedPath": "\/_site\/images\/james-nugent.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/james-nugent.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/james-nugent.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9015,
-		"inputAbbreviatedPath": "\/_site\/images\/james-nugent.png",
-		"outputAbbreviatedPath": "\/_site\/images\/james-nugent.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1177,6 +1323,7 @@
 		"initialSize": 146371,
 		"inputAbbreviatedPath": "\/_site\/images\/jon-bradford-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/jon-bradford-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1187,26 +1334,18 @@
 		"initialSize": 19201,
 		"inputAbbreviatedPath": "\/_site\/images\/jon-bradford.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/jon-bradford.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/images\/jon-bradford.png": {
-		"fileType": 32768,
+	"\/_site\/images\/pieter-germishuys.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10991,
-		"inputAbbreviatedPath": "\/_site\/images\/jon-bradford.png",
-		"outputAbbreviatedPath": "\/_site\/images\/jon-bradford.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/kostya-pyatkivskyy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8838,
-		"inputAbbreviatedPath": "\/_site\/images\/kostya-pyatkivskyy.png",
-		"outputAbbreviatedPath": "\/_site\/images\/kostya-pyatkivskyy.png",
+		"initialSize": 17305,
+		"inputAbbreviatedPath": "\/_site\/images\/pieter-germishuys.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/pieter-germishuys.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1217,6 +1356,7 @@
 		"initialSize": 509948,
 		"inputAbbreviatedPath": "\/_site\/images\/rich-knight-original.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/rich-knight-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1227,16 +1367,7 @@
 		"initialSize": 54387,
 		"inputAbbreviatedPath": "\/_site\/images\/rich-knight.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/rich-knight.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/rich-knight.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10528,
-		"inputAbbreviatedPath": "\/_site\/images\/rich-knight.png",
-		"outputAbbreviatedPath": "\/_site\/images\/rich-knight.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1247,6 +1378,7 @@
 		"initialSize": 350443,
 		"inputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy-original.png",
 		"outputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy-original.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1257,16 +1389,7 @@
 		"initialSize": 24555,
 		"inputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/yuriy-solodkyy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11381,
-		"inputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.png",
-		"outputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1276,6 +1399,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/shop\/index.html": {
@@ -1284,6 +1408,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/shop\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/support\/index.html": {
@@ -1292,6 +1417,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/support\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/terms\/index.html": {
@@ -1300,6 +1426,16 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/terms\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/two-years-on\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/two-years-on\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/about\/index.html": {
@@ -1308,6 +1444,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/apple-touch-icon.png": {
@@ -1317,6 +1454,38 @@
 		"initialSize": 31542,
 		"inputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/appliances\/appliance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47204,
+		"inputAbbreviatedPath": "\/appliances\/appliance.jpg",
+		"outputAbbreviatedPath": "\/appliances\/appliance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/appliances\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/appliances\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/ouro-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16759,
+		"inputAbbreviatedPath": "\/assets\/ouro-200.png",
+		"outputAbbreviatedPath": "\/assets\/ouro-200.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1326,6 +1495,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/community\/index.html": {
@@ -1334,6 +1504,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/community\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/main.css": {
@@ -1342,7 +1513,37 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/js\/jquery-2.1.1.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/jquery-2.1.1.js",
+		"outputAbbreviatedPath": "\/dist\/js\/min\/jquery-2.1.1-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/docs\/index.html": {
 		"fileType": 8192,
@@ -1350,6 +1551,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/docs\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/documentation\/index.html": {
@@ -1358,6 +1560,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/documentation\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/downloads\/index.html": {
@@ -1366,6 +1569,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/downloads\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/enterprise\/index.html": {
@@ -1374,6 +1578,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/enterprise\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/features\/index.html": {
@@ -1382,6 +1587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/features\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/images\/blog-es3.jpg": {
@@ -1391,6 +1597,7 @@
 		"initialSize": 85693,
 		"inputAbbreviatedPath": "\/images\/blog-es3.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-es3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1401,6 +1608,7 @@
 		"initialSize": 78299,
 		"inputAbbreviatedPath": "\/images\/blog-ha-setup.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-ha-setup.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1411,6 +1619,7 @@
 		"initialSize": 37702,
 		"inputAbbreviatedPath": "\/images\/blog-power-switch.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-power-switch.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1421,6 +1630,7 @@
 		"initialSize": 143524,
 		"inputAbbreviatedPath": "\/images\/chris-ware-original.jpg",
 		"outputAbbreviatedPath": "\/images\/chris-ware-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1431,6 +1641,7 @@
 		"initialSize": 19180,
 		"inputAbbreviatedPath": "\/images\/chris-ware.jpg",
 		"outputAbbreviatedPath": "\/images\/chris-ware.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1441,6 +1652,7 @@
 		"initialSize": 1.08516e+06,
 		"inputAbbreviatedPath": "\/images\/chris-watt-original.jpg",
 		"outputAbbreviatedPath": "\/images\/chris-watt-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1451,6 +1663,18 @@
 		"initialSize": 18501,
 		"inputAbbreviatedPath": "\/images\/chris-watt.jpg",
 		"outputAbbreviatedPath": "\/images\/chris-watt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dan-leech-original-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317818,
+		"inputAbbreviatedPath": "\/images\/dan-leech-original-2.jpg",
+		"outputAbbreviatedPath": "\/images\/dan-leech-original-2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1461,6 +1685,7 @@
 		"initialSize": 391754,
 		"inputAbbreviatedPath": "\/images\/dan-leech-original.jpg",
 		"outputAbbreviatedPath": "\/images\/dan-leech-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1471,6 +1696,7 @@
 		"initialSize": 20605,
 		"inputAbbreviatedPath": "\/images\/dan-leech.jpg",
 		"outputAbbreviatedPath": "\/images\/dan-leech.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1481,6 +1707,7 @@
 		"initialSize": 68379,
 		"inputAbbreviatedPath": "\/images\/greg-young-original.jpg",
 		"outputAbbreviatedPath": "\/images\/greg-young-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1491,6 +1718,7 @@
 		"initialSize": 15039,
 		"inputAbbreviatedPath": "\/images\/greg-young.jpg",
 		"outputAbbreviatedPath": "\/images\/greg-young.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1501,6 +1729,7 @@
 		"initialSize": 90717,
 		"inputAbbreviatedPath": "\/images\/james-nugent-original.jpg",
 		"outputAbbreviatedPath": "\/images\/james-nugent-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1511,6 +1740,7 @@
 		"initialSize": 12736,
 		"inputAbbreviatedPath": "\/images\/james-nugent.jpg",
 		"outputAbbreviatedPath": "\/images\/james-nugent.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1521,6 +1751,7 @@
 		"initialSize": 154787,
 		"inputAbbreviatedPath": "\/images\/jon-bradford-original.jpg",
 		"outputAbbreviatedPath": "\/images\/jon-bradford-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1531,6 +1762,40 @@
 		"initialSize": 19201,
 		"inputAbbreviatedPath": "\/images\/jon-bradford.jpg",
 		"outputAbbreviatedPath": "\/images\/jon-bradford.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pieter-germishuys-original.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.12148e+06,
+		"inputAbbreviatedPath": "\/images\/pieter-germishuys-original.jpg",
+		"outputAbbreviatedPath": "\/images\/pieter-germishuys-original.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pieter-germishuys.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17305,
+		"inputAbbreviatedPath": "\/images\/pieter-germishuys.jpg",
+		"outputAbbreviatedPath": "\/images\/pieter-germishuys.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/repo-banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48783,
+		"inputAbbreviatedPath": "\/images\/repo-banner.png",
+		"outputAbbreviatedPath": "\/images\/repo-banner.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1541,6 +1806,7 @@
 		"initialSize": 509948,
 		"inputAbbreviatedPath": "\/images\/rich-knight-original.jpg",
 		"outputAbbreviatedPath": "\/images\/rich-knight-original.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1551,6 +1817,29 @@
 		"initialSize": 54387,
 		"inputAbbreviatedPath": "\/images\/rich-knight.jpg",
 		"outputAbbreviatedPath": "\/images\/rich-knight.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yaroslav-klymko-original.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 924626,
+		"inputAbbreviatedPath": "\/images\/yaroslav-klymko-original.png",
+		"outputAbbreviatedPath": "\/images\/yaroslav-klymko-original.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yaroslav-klymko.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28448,
+		"inputAbbreviatedPath": "\/images\/yaroslav-klymko.jpg",
+		"outputAbbreviatedPath": "\/images\/yaroslav-klymko.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1561,6 +1850,7 @@
 		"initialSize": 350443,
 		"inputAbbreviatedPath": "\/images\/yuriy-solodkyy-original.png",
 		"outputAbbreviatedPath": "\/images\/yuriy-solodkyy-original.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1571,6 +1861,7 @@
 		"initialSize": 24555,
 		"inputAbbreviatedPath": "\/images\/yuriy-solodkyy.jpg",
 		"outputAbbreviatedPath": "\/images\/yuriy-solodkyy.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1580,6 +1871,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/shop\/index.html": {
@@ -1588,6 +1880,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/shop\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/support\/index.html": {
@@ -1596,6 +1889,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/support\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/terms\/index.html": {
@@ -1604,6 +1898,16 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/terms\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/two-years-on\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/two-years-on\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
@@ -1625,6 +1929,8 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
@@ -1675,12 +1981,16 @@
 			"active": 0,
 			"flagValue": 3
 			},
-		"no-unnecessary_fat_arrows": {
+		"no_backticks": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"no_backticks": {
+		"no_debugger": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_empty_param_list": {
@@ -1692,6 +2002,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1719,6 +2033,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"non_empty_constructor_needs_parens": {
 			"active": 0,
 			"flagValue": -1
@@ -1734,6 +2056,8 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
 	"hamlAutoOutputPathReplace2": "",
@@ -1745,19 +2069,22 @@
 	"hamlUseCDATA": 0,
 	"hamlUseDoubleQuotes": 0,
 	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
 	"jadeAutoOutputPathRelativePath": "",
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptOutputSuffix": "-ck",
 	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -1834,10 +2161,6 @@
 			"flagValue": -1
 			},
 		"funcscope": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"gcl": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1953,10 +2276,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -1993,10 +2312,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -2009,10 +2324,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -2023,10 +2334,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -2152,11 +2459,15 @@
 			"flagValue": -1
 			}
 		},
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
 	"kitAutoOutputPathStyle": 0,
 	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
@@ -2169,6 +2480,8 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
@@ -2177,6 +2490,8 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
@@ -2189,6 +2504,8 @@
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
@@ -2197,6 +2514,8 @@
 	"slimLogicless": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
@@ -2205,6 +2524,8 @@
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
 	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
 	"typescriptAutoOutputPathRelativePath": "\/js",
 	"typescriptAutoOutputPathReplace1": "",
 	"typescriptAutoOutputPathReplace2": "",
