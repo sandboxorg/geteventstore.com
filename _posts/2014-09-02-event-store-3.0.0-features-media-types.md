@@ -119,7 +119,7 @@ Following the redirect to the URI to which you are redirected will then write th
 
 *Request*
 
-```
+```http
 POST http://localhost:2113/streams/myStream/incoming/6f7902ca-5a43-4518-9f17-aaab80f2acdf HTTP/1.1
 Host: localhost:2113
 Content-Type: application/json
