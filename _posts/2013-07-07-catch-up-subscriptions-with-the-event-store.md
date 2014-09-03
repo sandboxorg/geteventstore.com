@@ -31,7 +31,7 @@ For our client we’ll use a straightforward console application targeting .NET 
 
 To start with, we’ll need to connect to the Event Store. The following code will connect to the local Event Store we just started:
 
-```cs
+```csharp
 var connection = EventStoreConnection.Create();
 connection.Connect(new IPEndPoint(IPAddress.Loopback, 1113));
 ```
@@ -40,14 +40,14 @@ Next let’s subscribe to the statistics stream, and write a method which will m
 
 To subscribe, we'll use the following method (in our `Main` method for now):
 
-```cs
+```csharp
 connection.SubscribeToStream("$stats-127.0.0.1:2113", false, EventAppeared, SubscriptionDropped);
 ```
 
 The two callbacks `EventAppeared` and `SubscriptionDropped` have the following
 signatures:
 
-```cs
+```csharp
 private static void SubscriptionDropped(EventStoreSubscription subscription, string reason, Exception exception)
 {
 }
@@ -71,7 +71,7 @@ However, it doesn’t have to be implemented, so we’ll leave it empty for now.
 
 Let’s add some code to our `EventAppeared` handler to print to the console when we receive an event:
 
-```cs
+```csharp
 private static void EventAppeared(EventStoreSubscription subscription, ResolvedEvent resolvedEvent)
 {
    var receivedEvent = resolvedEvent.OriginalEvent;
@@ -83,7 +83,7 @@ Now, if we add a `Console.ReadLine()` to the end of our `Main` method to stop th
 
 However, that wasn’t really the aim – what we wanted to do was use a catch-up subscription in order to receive previous events from some point in the stream before getting live ones over the subscription. So let's change our subscription call:
 
-```cs
+```csharp
 connection.SubscribeToStreamFrom("$stats-127.0.0.1:2113", StreamPosition.Start, false, EventAppeared);
 ```
 
@@ -92,7 +92,7 @@ in the stream from which you want the subscription to start. In our case we
 want to start at the beginning of the stream, so we'll use the constant
 `StreamPosition.Start`. Our callback signature changes slightly:
 
-```cs
+```csharp
 private static void EventAppeared(EventStoreCatchUpSubscription subscription, ResolvedEvent resolvedEvent)
 ```
 
