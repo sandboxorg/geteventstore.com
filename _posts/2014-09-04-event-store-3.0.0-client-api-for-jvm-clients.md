@@ -1,6 +1,6 @@
 ---
 title: "Event Store 3.0.0 - Using Event Store from the JVM"
-date: 2014-09-02T13:00Z
+date: 2014-09-04T12:00Z
 author: "James Nugent"
 layout: blog-post
 ---
