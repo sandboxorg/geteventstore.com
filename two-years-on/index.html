@@ -87,6 +87,28 @@
         text-decoration: none;
         border-radius: 0.25em;
     }
+    .speaker-headshots {
+        padding: 0;
+        list-style: none;
+    }
+    .speaker-headshots:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    .speaker-headshots li {
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+        float: left;
+        display: inline-block;
+        width: 20%;
+        padding: 0 0.75rem 0 0;
+    }
+    .speaker-headshots li img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.375em;
+    }
     </style>
 </head>
 
@@ -95,13 +117,22 @@
     <p>Ouro turns two this year! Come and celebrate with us in <strong>London, UK</strong> on <strong>17th September 2014</strong>, 6pm onwards at Crypt on the Green (near Farringdon, London).</p>
     <p><strong>We would like to invite anyone who develops for, uses or is considering using Event Store.</strong> If you’re trying to convince your colleagues or management of the awesomeness of Event Store this is a great opportunity to bring them along and speak with our team in person.</p>
     <p><a href="#tickets" class="button">Get your free ticket now!</a></p>
-    <p>What that free ticket gets you:</p>
-    <ul>
-        <li>Greg Young presenting the next version of Event Store</li>
-        <li>Open-source contributors sharing their ideas</li>
-        <li>Food, beer and soft drinks (who likes pizza?)</li>
-        <li>A few souvenirs to take back to the office&hellip;</li>
+    <p>Who’s speaking:</p>
+    <ul class="speaker-headshots">
+        <li><img src="greg.jpg" alt="Greg Young" title="Greg Young"></li>
+        <li><img src="szymon.jpg" alt="Szymon Pobiega" title="Szymon Pobiega"></li>
+        <li><img src="joao.jpg" alt="João Bragança" title="João Bragança"></li>
+        <li><img src="jeremie.jpg" alt="Jérémie Chassaing" title="Jérémie Chassaing"></li>
+        <li><img src="stanislavas.jpg" alt="Stanislavas Didenko" title="Stanislavas Didenko"></li>
     </ul>
+    <p>Greg Young (<a href="https://twitter.com/gregyoung">@gregyoung</a>) will be presenting Event Store 3.0.0 and its new features. We’ll also have some short talks from some of our most prolific open-source community members, including:</p>
+    <ul>
+        <li>Szymon Pogiega (<a href="https://twitter.com/SzymonPobiega">@szymonpobiega</a>)</li>
+        <li>João Bragança (<a href="https://twitter.com/thefringeninja">@thefringeninja</a>)</li>
+        <li>Jérémie Chassaing (<a href="https://twitter.com/thinkb4coding">@thinkb4coding</a>)</li>
+        <li>Stanislavas Didenko</li>
+    </ul>
+    <p>There will be plenty of time after these brief talks to chat with the speakers and other attendees. We’ll have plenty of food and drink to keep you energised throughout the night, and maybe even a few giveaways!</p>
     <p>We’re hosting the evening at the <a href="http://www.cryptonthegreen.com">Crypt on the Green</a>, a short walk from either Farringdon or Angel tube stations. Check out <a href="http://www.cryptonthegreen.com/findus.htm">these directions</a> if you’re not sure where to go.</p>
     <div class="signup-container" id="tickets">
         <iframe src="http://eventbrite.co.uk/tickets-external?eid=12704801403" frameborder="0" height="214" width="100%" scrolling="auto" allowtransparency="true"></iframe>
