@@ -1,6 +1,6 @@
 ---
 title: "Event Store 3.0.0 - Static Linking & Where Did SingleNode Go?"
-date: 2014-09-02T13:00Z
+date: 2014-09-03T12:00Z
 author: "James Nugent"
 layout: blog-post
 ---
