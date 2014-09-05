@@ -66,8 +66,7 @@ configuration file.*
 A typical configuration file to run a single node Event Store on the default
 ports on an external interface might look like this:
 
-```yaml
----
+```
 # Database and logs path
 Db: /home/Ouro/myDb
 
@@ -78,7 +77,6 @@ ExtIp: 192.168.1.2
 
 # Run all projections
 RunProjections: All
----
 ```
 
 ###Default Config Files
