@@ -5,12 +5,12 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-It's now approaching two years since Event Store was open-sourced on September
+<p class="lead">It's now approaching two years since Event Store was open-sourced on September
 17th, 2012 at an event at Skills Matter in London. A year to the day later, we
 open sourced the high availability clustering features which were previously
 closed at Domain Driven Design Exchange in New York. So, in keeping with what
 is now a tradition, we'll be celebrating on September 17th, at the Crypt on the
-Green, near Farringdon in London, and we'd love for everyone to come!
+Green, near Farringdon in London, and we'd love for everyone to come!</p>
 
 During that event, we'll be launching the long-awaited Event Store 3.0.0, as
 well as having talks from some of our most prolific open-source contributors,
