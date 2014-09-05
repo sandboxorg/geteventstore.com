@@ -521,6 +521,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/2014-09-03-event-store-3.0.0-static-linking-where-did-singlenode-go.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-09-03-event-store-3.0.0-static-linking-where-did-singlenode-go.md",
+		"outputAbbreviatedPath": "\/_posts\/2014-09-03-event-store-3.0.0-static-linking-where-did-singlenode-go.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2014-09-04-event-store-3.0.0-client-api-for-jvm-clients.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-09-04-event-store-3.0.0-client-api-for-jvm-clients.md",
+		"outputAbbreviatedPath": "\/_posts\/2014-09-04-event-store-3.0.0-client-api-for-jvm-clients.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_sass\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1926,7 +1950,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "geteventstore.com",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_brown"
 	},
 "projectSettings": {
