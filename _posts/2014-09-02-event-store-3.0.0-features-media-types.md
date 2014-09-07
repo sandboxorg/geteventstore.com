@@ -101,9 +101,9 @@ Content-Length: 30
 *Response*
 
 ```http
-HTTP/1.1 307
+HTTP/1.1 307 Temporary Redirect
 Content-Length: 28
-Content-Type: ; charset=utf-8
+Content-Type: text/plain; charset=utf-8
 Location: http://localhost:2113/streams/myStream/incoming/6f7902ca-5a43-4518-9f17-aaab80f2acdf
 Server: Microsoft-HTTPAPI/2.0
 Access-Control-Allow-Methods: POST, DELETE, GET, OPTIONS
