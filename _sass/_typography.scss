@@ -35,3 +35,11 @@
 		border-color: $green;
 	}
 }
+
+.download-buttons {
+    a {
+        display: block;
+        text-align: center;
+        margin: 0.75rem 0;
+    }
+}
