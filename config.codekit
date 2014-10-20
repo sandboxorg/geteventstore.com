@@ -11,11 +11,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/fonts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/fonts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/header.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/header.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -743,6 +761,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_sass\/main3.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/main3.scss",
+		"outputAbbreviatedPath": "\/css\/main3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -752,28 +786,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31542,
-		"inputAbbreviatedPath": "\/_site\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/_site\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/appliances\/appliance.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47204,
-		"inputAbbreviatedPath": "\/_site\/appliances\/appliance.jpg",
-		"outputAbbreviatedPath": "\/_site\/appliances\/appliance.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/appliances\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -782,17 +794,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/ouro-200.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16759,
-		"inputAbbreviatedPath": "\/_site\/assets\/ouro-200.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/ouro-200.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/_site\/blog\/20120918\/greg-young-launches-event-store\/index.html": {
 		"fileType": 8192,
@@ -1190,24 +1191,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/main3.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main3.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/docs\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1253,281 +1236,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/images\/blog-es3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 78546,
-		"inputAbbreviatedPath": "\/_site\/images\/blog-es3.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/blog-es3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/blog-ha-setup.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 78299,
-		"inputAbbreviatedPath": "\/_site\/images\/blog-ha-setup.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/blog-ha-setup.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/blog-power-switch.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 37702,
-		"inputAbbreviatedPath": "\/_site\/images\/blog-power-switch.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/blog-power-switch.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-ware-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 136080,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-ware-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-ware-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-ware.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30372,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-ware.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-ware.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-watt-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.08516e+06,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-watt-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-watt-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/chris-watt.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29865,
-		"inputAbbreviatedPath": "\/_site\/images\/chris-watt.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/chris-watt.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/dan-leech-original-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 317818,
-		"inputAbbreviatedPath": "\/_site\/images\/dan-leech-original-2.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/dan-leech-original-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/dan-leech-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 391754,
-		"inputAbbreviatedPath": "\/_site\/images\/dan-leech-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/dan-leech-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/dan-leech.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46979,
-		"inputAbbreviatedPath": "\/_site\/images\/dan-leech.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/dan-leech.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/greg-young-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 56363,
-		"inputAbbreviatedPath": "\/_site\/images\/greg-young-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/greg-young-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/greg-young.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25049,
-		"inputAbbreviatedPath": "\/_site\/images\/greg-young.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/greg-young.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/james-nugent-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86175,
-		"inputAbbreviatedPath": "\/_site\/images\/james-nugent-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/james-nugent-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/james-nugent.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21413,
-		"inputAbbreviatedPath": "\/_site\/images\/james-nugent.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/james-nugent.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/jon-bradford-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 146371,
-		"inputAbbreviatedPath": "\/_site\/images\/jon-bradford-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/jon-bradford-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/jon-bradford.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30194,
-		"inputAbbreviatedPath": "\/_site\/images\/jon-bradford.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/jon-bradford.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/pieter-germishuys-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.12148e+06,
-		"inputAbbreviatedPath": "\/_site\/images\/pieter-germishuys-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/pieter-germishuys-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/pieter-germishuys.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17305,
-		"inputAbbreviatedPath": "\/_site\/images\/pieter-germishuys.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/pieter-germishuys.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/repo-banner.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48783,
-		"inputAbbreviatedPath": "\/_site\/images\/repo-banner.png",
-		"outputAbbreviatedPath": "\/_site\/images\/repo-banner.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/rich-knight-original.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 473269,
-		"inputAbbreviatedPath": "\/_site\/images\/rich-knight-original.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/rich-knight-original.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/rich-knight.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61615,
-		"inputAbbreviatedPath": "\/_site\/images\/rich-knight.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/rich-knight.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/yaroslav-klymko-original.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 924626,
-		"inputAbbreviatedPath": "\/_site\/images\/yaroslav-klymko-original.png",
-		"outputAbbreviatedPath": "\/_site\/images\/yaroslav-klymko-original.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/yaroslav-klymko.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28448,
-		"inputAbbreviatedPath": "\/_site\/images\/yaroslav-klymko.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/yaroslav-klymko.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/yuriy-solodkyy-original.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 207517,
-		"inputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy-original.png",
-		"outputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy-original.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/yuriy-solodkyy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 37061,
-		"inputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/yuriy-solodkyy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1563,70 +1271,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/two-years-on\/greg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10909,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/greg.jpg",
-		"outputAbbreviatedPath": "\/_site\/two-years-on\/greg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/two-years-on\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/two-years-on\/jeremie.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14998,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/jeremie.jpg",
-		"outputAbbreviatedPath": "\/_site\/two-years-on\/jeremie.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/two-years-on\/joao.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16260,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/joao.jpg",
-		"outputAbbreviatedPath": "\/_site\/two-years-on\/joao.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/two-years-on\/stanislavas.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16267,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/stanislavas.jpg",
-		"outputAbbreviatedPath": "\/_site\/two-years-on\/stanislavas.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/two-years-on\/szymon.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17538,
-		"inputAbbreviatedPath": "\/_site\/two-years-on\/szymon.jpg",
-		"outputAbbreviatedPath": "\/_site\/two-years-on\/szymon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/about\/index.html": {
 		"fileType": 8192,
@@ -1702,6 +1346,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/main3.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main3.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
