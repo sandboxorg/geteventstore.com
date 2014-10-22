@@ -69,9 +69,7 @@ a {
   display: none;
   margin: 0;
   padding: 0;
-  background: #5AB552;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch; }
+  background: #5AB552; }
   @media (min-width: 45rem) {
     .site-navigation {
       display: block; } }

@@ -97,8 +97,6 @@ a {
     margin: 0;
     padding: 0;
     background: $green;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
     @media (min-width: 45rem) {
         display: block;
     }
