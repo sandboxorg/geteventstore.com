@@ -77,6 +77,15 @@ a {
     }
 }
 
+.site-navigation-toggle {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.5rem 0.75rem;
+    color: $white;
+}
+
 .site-navigation {
     display: block;
     margin: 0;
