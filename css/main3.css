@@ -5,6 +5,8 @@ a {
   text-decoration: none; }
 
 .inner-container {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 74rem;
   margin: 0 auto;
   padding: 0 0.75rem; }
