@@ -84,6 +84,9 @@ a {
     right: 0;
     padding: 1rem 1.5rem;
     color: $white;
+    &:focus, &:hover {
+        color: $green-light;
+    }
     @media (min-width: 800px) {
         display: none;
     }
