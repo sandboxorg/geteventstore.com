@@ -57,16 +57,22 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 1.5rem 0.75rem;
+  padding: 1rem 1.5rem;
   color: #FFF; }
+  @media (min-width: 800px) {
+    .site-navigation-toggle {
+      display: none; } }
 
 .site-navigation {
-  display: block;
+  display: none;
   margin: 0;
   padding: 0;
   background: #5AB552;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch; }
+  @media (min-width: 800px) {
+    .site-navigation {
+      display: block; } }
   @media (min-width: 45rem) {
     .site-navigation {
       background: none;
