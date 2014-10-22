@@ -87,7 +87,7 @@ a {
     &:focus, &:hover {
         color: $green-light;
     }
-    @media (min-width: 800px) {
+    @media (min-width: 45rem) {
         display: none;
     }
 }
@@ -99,7 +99,7 @@ a {
     background: $green;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    @media (min-width: 800px) {
+    @media (min-width: 45rem) {
         display: block;
     }
     @media (min-width: 45rem) {

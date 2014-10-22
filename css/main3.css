@@ -61,7 +61,7 @@ a {
   color: #FFF; }
   .site-navigation-toggle:focus, .site-navigation-toggle:hover {
     color: #afdbab; }
-  @media (min-width: 800px) {
+  @media (min-width: 45rem) {
     .site-navigation-toggle {
       display: none; } }
 
@@ -72,7 +72,7 @@ a {
   background: #5AB552;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch; }
-  @media (min-width: 800px) {
+  @media (min-width: 45rem) {
     .site-navigation {
       display: block; } }
   @media (min-width: 45rem) {
