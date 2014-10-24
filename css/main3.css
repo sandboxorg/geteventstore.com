@@ -88,6 +88,10 @@ a {
   background-repeat: repeat-x;
   background-position: top;
   background-size: 2px 2px; }
+  .site-navigation__item:after {
+    content: " ";
+    display: table;
+    clear: both; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .site-navigation__item {
       background-size: 1px 1px; } }
@@ -99,6 +103,7 @@ a {
       color: #afdbab; }
   @media (min-width: 45rem) {
     .site-navigation__item {
+      float: left;
       display: inline-block;
       background-image: none;
       margin: 0 0 0 0.75rem; }

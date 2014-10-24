@@ -116,6 +116,11 @@ a {
     background-repeat: repeat-x;
     background-position: top;
     background-size: 2px 2px;
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         background-size: 1px 1px;
     }
@@ -128,6 +133,7 @@ a {
         }
     }
     @media (min-width: 45rem) {
+        float: left;
         display: inline-block;
         background-image: none;
         margin: 0 0 0 0.75rem;
