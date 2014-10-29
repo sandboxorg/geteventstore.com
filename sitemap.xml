@@ -15,8 +15,8 @@
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/documentation</loc>
-		<changefreq>weekly</changefreq>
+		<loc>http://docs.geteventstore.com</loc>
+		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
