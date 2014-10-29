@@ -7,8 +7,7 @@ layout: blog-post
 
 Hot on the heels of version 3.0.0, which was released at our Birthday Party in London on September 17th, 2014, we're pleased to announce a service release of Event Store, version 3.0.1. This fixes a number of small bugs and updates the bundled version of the uder interface. The release notes are below.
 
-Event Store Server
-===
+###Event Store Server
 
 - OS X binaries are now compatible with Mac OS 10.7 and above (#275)
 - Gossip can be requested as `application/xml` or `text/xml` in addition to `application/json` (#275)
@@ -25,13 +24,11 @@ Event Store Server
     - UI indicates events which are invalid due to windowing or deletion (#269)
     - UI no longer presents non-existent metadata stream for the synthesized `$all` stream (#284)
 
-ES Query
-===
+###ES Query
 
 - Content length is now set correctly on some requests from ESQuery which were previously calling failures (#283)
 
-.NET Client API
-===
+###.NET Client API
 
 - Client-side subscription queue is now bounded (#246)
 - EventStore.EmbeddedClient package now has the dependency on EventStore.Client correctly set (#242)
