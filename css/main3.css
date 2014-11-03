@@ -10,7 +10,7 @@ a {
   max-width: 74rem;
   margin: 0 auto;
   padding: 0 0.75rem; }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .inner-container {
       padding: 0 1.5rem; } }
 
@@ -26,7 +26,7 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #5AB552; }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .site-banner .inner-container {
       display: -webkit-flex;
       display: -ms-flex;
@@ -48,7 +48,7 @@ a {
   .site-logo a {
     display: inline-block;
     padding: 0.75rem 0; }
-    @media (min-width: 45rem) {
+    @media (min-width: 720px) {
       .site-logo a {
         padding: 1.5rem 0; } }
   .site-logo img {
@@ -63,7 +63,7 @@ a {
   color: #FFF; }
   .site-navigation-toggle:focus, .site-navigation-toggle:hover {
     color: #afdbab; }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .site-navigation-toggle {
       display: none; } }
 
@@ -72,10 +72,10 @@ a {
   margin: 0;
   padding: 0;
   background: #5AB552; }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .site-navigation {
       display: block; } }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .site-navigation {
       background: none;
       list-style: none;
@@ -101,7 +101,7 @@ a {
     color: #FFF; }
     .site-navigation__item a:focus, .site-navigation__item a:hover {
       color: #afdbab; }
-  @media (min-width: 45rem) {
+  @media (min-width: 720px) {
     .site-navigation__item {
       float: left;
       display: inline-block;
