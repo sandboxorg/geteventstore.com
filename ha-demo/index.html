@@ -207,7 +207,7 @@
                             <!-- /ko -->
                         </span>
                         <p class="node__ip" data-bind="text: ip"></p>
-                        <p class="node__state" data-bind="text: state, style: { 'text-decoration': isAlive() ? 'none' : 'line-through' }"></p>
+                        <p class="node__state" data-bind="text: state, style: { 'opacity': isAlive() ? '1' : '0.25' }"></p>
                         <p class="node__writer-checkpoint" data-bind="text: writerCheckpoint"></p>
                         <p class="node__chaser-checkpoint" data-bind="text: chaserCheckpoint"></p>
                     </li>
