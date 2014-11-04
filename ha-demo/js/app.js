@@ -24,12 +24,12 @@ function ShowcaseViewModel()
 
   self.graphData = [ {
     name: "Reads",
-    color: '#6BA300',
+    color: '#2E9625',
     data: []
     },
     {
       name: "Writes",
-      color: '#EF310C',
+      color: '#E1163C',
       data: []
     }
   ];
@@ -46,7 +46,7 @@ function ShowcaseViewModel()
     series: self.graphData,
     renderer: "line",
     interpolation: "basis",
-    max: 2500
+    max: 7500
   });
 
   var legend = new Rickshaw.Graph.Legend({
