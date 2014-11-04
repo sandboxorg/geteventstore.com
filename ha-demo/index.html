@@ -118,20 +118,30 @@
             border: none;
             background: #435261;
             color: white;
-            float: left;
-            width: calc(50% - 0.75rem);
+            width: calc(100% - 0.75rem);
             height: 12rem;
             opacity: 1;
             font-family: "Source Code Pro", monospace;
         }
+        @media (min-width: 480px) {
+            .console {
+                float: left;
+                width: calc(50% - 0.75rem);
+            }
+        }
         .graph {
             position: relative;
-            float: left;
-            width: calc(50% - 0.75rem);
+            width: calc(100% - 0.75rem);
             height: 12rem;
             margin: 0.75rem 0;
             background: #435261;
             color: white;
+        }
+        @media (min-width: 480px) {
+            .graph {
+                float: left;
+                width: calc(50% - 0.75rem);
+            }
         }
         #legend {
             position: absolute;
