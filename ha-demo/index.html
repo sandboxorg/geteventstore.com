@@ -97,6 +97,7 @@
             text-align: center;
             background: #E1163C;
             color: white;
+            opacity: 1 !important;
         }
         .node__ip:before {
             content: "IP Address";
@@ -149,6 +150,9 @@
             left: 0.75rem;
             opacity: 1;
         }
+        .dead-node {
+            opacity: 0.5;
+        }
     </style>
 
 	<link rel="stylesheet" href="css/rickshaw.min.css">
@@ -199,7 +203,7 @@
                 <!-- <h1>Cluster Status</h1> -->
                 <ul class="ha-demo__cluster">
                     <!-- ko foreach: servers -->
-                    <li>
+                    <li data-bind="css: { 'dead-node': !isAlive() }">
                         <h2 class="node__name" data-bind="text: serverName"></h2>
                         <span class="node__power">
                             <!-- ko if: $parent.keepUpdating() -->
@@ -207,7 +211,7 @@
                             <!-- /ko -->
                         </span>
                         <p class="node__ip" data-bind="text: ip"></p>
-                        <p class="node__state" data-bind="text: state, style: { 'opacity': isAlive() ? '1' : '0.25' }"></p>
+                        <p class="node__state" data-bind="text: state"></p>
                         <p class="node__writer-checkpoint" data-bind="text: writerCheckpoint"></p>
                         <p class="node__chaser-checkpoint" data-bind="text: chaserCheckpoint"></p>
                     </li>
