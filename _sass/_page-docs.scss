@@ -109,7 +109,7 @@
     -moz-box-sizing: border-box;
          box-sizing: border-box;
     width: 100%;
-    max-width: 100%;
+    max-width: 100% !important;
     padding: 1.5rem;
     background: $black;
     border-radius: 0.25rem;
