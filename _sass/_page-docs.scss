@@ -84,9 +84,12 @@
     float: left;
     width: 100%;
     h1 {
-        width: 100%;
         padding: 0 0 1.5rem;
         @include underlined;
+    }
+    h1, h2, h3 {
+        width: 100%;
+        max-width: 100%;
     }
     p, ul, ul {
         max-width: 42rem;
@@ -106,7 +109,7 @@
     -moz-box-sizing: border-box;
          box-sizing: border-box;
     width: 100%;
-    max-width: inherit;
+    max-width: 100%;
     padding: 1.5rem;
     background: $black;
     border-radius: 0.25rem;
