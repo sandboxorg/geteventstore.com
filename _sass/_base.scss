@@ -1,129 +1,135 @@
+// BASE
+
 * {
-	-moz-box-sizing: border-box;
-	     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 html {
-	font-size: $font-base-size;
+    font-size: 0.875 * $font-base-size;
+    @media (min-width: 720px) {
+        font-size: $font-base-size;
+    }
 }
 
 body {
-	margin: 0;
-	background: $white-off;
-	color: $grey;
-	font-family: $font-base;
-	font-weight: $font-base-weight;
-	line-height: 1.5rem;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background: $white-off;
+    color: $grey;
+    font-family: $font-base;
+    font-weight: $font-base-weight;
+    line-height: 1.5rem;
+    -webkit-font-feature-settings: "dlig", "kern", "liga";
+       -moz-font-feature-settings: "dlig", "kern", "liga";
+        -ms-font-feature-settings: "dlig", "kern", "liga";
+         -o-font-feature-settings: "dlig", "kern", "liga";
+            font-feature-settings: "dlig", "kern", "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-	color: $green-light;
-	text-decoration: none;
-	&:focus, &:hover {
-		color: $green;
-	}
+    color: $green;
+    text-decoration: none;
+    @include underlined;
 }
 
 blockquote {
-	font-size: 2.25rem;
-	font-style: italic;
-	line-height: 3rem;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 3rem;
 }
 
 p, h1, h2, h3 {
-	max-width: 35rem;
-	margin: 1.5rem auto;
+    max-width: 35rem;
+    margin: 1.5rem auto;
 }
 
 h1, h2, h3 {
-	font-family: $font-heading;
-	font-weight: $font-heading-weight;
+    font-family: $font-heading;
+    font-weight: $font-heading-weight;
 }
 
 h1 {
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 2.25rem;
-	line-height: 3rem;
+    margin: 0 0 1.5rem;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 3rem;
 }
 
 h2 {
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
-	font-size: 1.25rem;
-	line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 h3 {
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
-	font-size: 1rem;
-	line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
-table {
-	width: 35rem;
-	margin: 1.5rem auto;
-	border-right: 1px solid $grey-light;
-	border-left: 1px solid $grey-light;
-	border-collapse: collapse;
-	h3, p {
-		margin: 0;
-	}
-}
-
-tr {
-	&:first-child {
-		td, th {
-			border-top: 1px solid $grey-light;
-		}
-	}
-}
-
-th {
-	font-weight: $font-heading-weight;
-}
-
-td, th {
-	height: 3rem;
-	padding: 0.75rem;
-	border-bottom: 1px solid $grey-light;
-	text-align: right;
-	vertical-align: top;
-	&:first-child {
-		text-align: left;
-	}
-}
-
-pre, code {
-	background: $white-off;
-	color: $grey-dark;
-	font-family: source-code-pro, monospace;
-	// font-size: 0.875rem;
-	font-weight: 400;
-	line-height: 1.5rem;
-	letter-spacing: -0.1rem;
-	text-rendering: optimizeSpeed;
-	strong {
-		font-weight: 700;
-	}
-}
-
-pre {
-	width: 50rem;
-	margin: 1.5rem auto;
-	padding: calc(1.5rem - 1px);
-	border: 1px solid $grey-light;
-	border-radius: 0.25rem;
-	overflow: scroll;
-	// white-space: nowrap;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+header a {
+    background-image: none;
 }
 
 iframe {
     margin: 1.5rem auto;
+}
+
+pre, code {
+    background: $white-off;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem;
+    line-height: 1.125rem;
+}
+
+pre {
+    margin: 1.5rem 0;
+    padding: 0.75rem;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    @media (min-width: 720px) {
+        margin: 1.5rem 0 1.5rem -0.75rem;
+        
+    }
+    code {
+        background-color: transparent;
+    }
+}
+
+table {
+    width: 35rem;
+    margin: 1.5rem auto;
+    border-right: 1px solid $grey-light;
+    border-left: 1px solid $grey-light;
+    border-collapse: collapse;
+    h3, p {
+        margin: 0;
+    }
+}
+
+tr {
+    &:first-child {
+        td, th {
+            border-top: 1px solid $grey-light;
+        }
+    }
+}
+
+th {
+    font-weight: $font-heading-weight;
+}
+
+td, th {
+    height: 3rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid $grey-light;
+    text-align: right;
+    vertical-align: top;
+    &:first-child {
+        text-align: left;
+    }
 }
