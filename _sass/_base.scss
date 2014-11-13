@@ -44,6 +44,10 @@ p, h1, h2, h3 {
     margin: 1.5rem auto;
 }
 
+p {
+    max-width: 42rem;
+}
+
 h1, h2, h3 {
     font-family: $font-heading;
     font-weight: $font-heading-weight;
