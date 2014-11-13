@@ -1,0 +1,120 @@
+.docs {
+    margin: 0;
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+.docs-breadcrumbs {
+    margin: 0 0 1.5rem;
+    padding: 0.75rem 0;
+    font-size: 0.75rem;
+    @include underlined;
+}
+
+.docs-toc-toggle {
+    display: block;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    background: $green;
+    color: $white;
+    font-weight: 700;
+    text-align: center;
+    @media (min-width: 720px) {
+        display: none;
+    }
+}
+
+.docs-sidebar {
+    display: none;
+    float: left;
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 0;
+    @media (min-width: 720px) {
+        display: block;
+        width: 19.5rem;
+        margin: 0;
+        padding: 0 1.5rem 0 0;
+    }
+}
+
+.docs-sidebar__title {
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    @include underlined;
+}
+
+.docs-sidebar__heading {
+    display: block;
+    padding: 1.5rem 0 0;
+}
+
+.docs-sidebar__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: block;
+        font-weight: 700;
+    }
+    a {
+        display: block;
+        padding: 1.5rem 0 0;
+        background-image: none;
+    }
+    li li {
+        padding: 0 0 0 0.75rem;
+        font-weight: 400;
+        a {
+            padding: 0 0 0 0.375rem;
+        }
+    }
+}
+
+.docs-content {
+    float: left;
+    width: 100%;
+    h1 {
+        padding: 0 0 1.5rem;
+        @include underlined;
+    }
+    p, ul, ul {
+        max-width: 42rem;
+    }
+    img {
+        width: auto;
+        margin: 1.5rem auto;
+        max-width: 100%;
+    }
+    @media (min-width: 720px) {
+        width: calc(100% - 21rem);
+    }
+}
+
+.docs-lead {
+    width: auto;
+    padding: 1.5rem;
+    background: $black;
+    border-radius: 0.25rem;
+    color: $white;
+    @media (min-width: 1000px) {
+        padding: 3rem 9rem 3rem 3rem;
+        background-image: url('http://geteventstore.com/images/ouro.svg');
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-size: 1.25rem;
+    }
+    a {
+        background-image: linear-gradient(0deg, $green 0%, $green 50%, transparent 50%, transparent 100%);
+    }
+}

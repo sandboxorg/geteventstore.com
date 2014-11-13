@@ -18,3 +18,32 @@
 		clear: both;
 	}
 }
+
+@mixin underlined {
+    background-image: linear-gradient(0deg, $white-off 0%, $white-off 50%, transparent 50%, transparent 100%);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-size: 1px 1px;
+    }
+}
+
+%clearfix {
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+.inner-container {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    @media (min-width: 720px) {
+        padding: 0 1.5rem;
+    }
+}
