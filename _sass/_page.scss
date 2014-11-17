@@ -83,6 +83,11 @@
 	padding: 1.5rem;
 	@include shadowbox($white, $grey);
 	@include clearfix;
+    h1 {
+        width: 35rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 	ul {
 		width: 35rem;
 		margin: 1.5rem auto;
