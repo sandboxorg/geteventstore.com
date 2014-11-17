@@ -6,7 +6,7 @@
 	color: $fg;
 	@if $bg == $white {
 		border-radius: 0.25rem;
-        border: 1px solid darken($bg, 5%);
+        border: 1px solid $white-off;
 	}
 }
 
