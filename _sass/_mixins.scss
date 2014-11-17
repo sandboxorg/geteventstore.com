@@ -5,9 +5,8 @@
 	}
 	color: $fg;
 	@if $bg == $white {
-		border-radius: 0.125rem;
-		box-shadow: 0 0.25rem 0.75rem transparentize(darken($bg, 50%), 0.875),
-			0 0 1px darken($bg, 25%);
+		border-radius: 0.25rem;
+        border: 1px solid darken($bg, 25%);
 	}
 }
 
