@@ -1,0 +1,21 @@
+.page-section {
+    @include clearfix;
+    @include underlined;
+    padding: 1.5rem 0;
+    p {
+        max-width: none;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    @media (min-width: 720px) {
+        padding: 3rem 0;
+    }
+}
+
+.page-section__half {
+    float: left;
+    width: 100%;
+    @media (min-width: 720px) {
+        width: 50%;
+    }
+}
