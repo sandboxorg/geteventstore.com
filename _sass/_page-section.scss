@@ -2,10 +2,15 @@
     @include clearfix;
     @include underlined;
     padding: 1.5rem 0;
-    p {
+    h1, h2, h3, ul, ol, p {
         max-width: none;
-        font-size: 1.5rem;
-        line-height: 2.25rem;
+    }
+    p {
+        &.lead {
+            color: $grey-dark;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+        }
     }
     @media (min-width: 720px) {
         padding: 3rem 0;
@@ -17,5 +22,13 @@
     width: 100%;
     @media (min-width: 720px) {
         width: 50%;
+    }
+}
+
+.page-section__minor {
+    float: left;
+    width: 100%;
+    @media (min-width: 720px) {
+        width: 37.5%;
     }
 }
