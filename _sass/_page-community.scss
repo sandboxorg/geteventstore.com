@@ -1,9 +1,16 @@
 .table-events {
-	// width: 45rem;
+    td, th {
+        display: block;
+    }
 	td {
 		white-space: nowrap;
 		&:first-child {
 			white-space: normal;
 		}
 	}
+    @media (min-width: 720px) {
+        td, th {
+            display: table-cell;
+        }
+    }
 }
