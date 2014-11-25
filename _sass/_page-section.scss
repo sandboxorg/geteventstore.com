@@ -7,13 +7,14 @@
     }
     p {
         &.lead {
+            margin: 3rem 0;
             color: $grey-dark;
             font-size: 1.5rem;
             line-height: 2.25rem;
         }
     }
     @media (min-width: 720px) {
-        padding: 3rem 0;
+        padding: 1.5rem 0;
     }
 }
 
@@ -31,4 +32,22 @@
     @media (min-width: 720px) {
         width: 37.5%;
     }
+}
+
+.page-section__major {
+    float: left;
+    width: 100%;
+    @media (min-width: 720px) {
+        width: 62.5%;
+    }
+}
+
+.community-intro-placeholder {
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+    background-image: url("http://placehold.it/1600x600");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
