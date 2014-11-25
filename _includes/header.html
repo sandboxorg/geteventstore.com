@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=1024">
+    <meta charset="utf-8">
+    {% if page.title == "Community" %}<meta name="viewport" content="width=device-width, initial-scale=1">{% else %}<meta name="viewport" content="width=1024">{% endif %}
     <meta name="description" content="{{ site.description }}">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//code.jquery.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
-	<title>{% if page.title != "Homepage" %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <title>{% if page.title != "Homepage" %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     <link rel="stylesheet" href="{{ site.url }}/css/main5.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Source+Code+Pro:400,700">
 </head>
 
 <body>
     <header class="site-banner">
-    	<div class="inner-container">
-			<h1 class="site-logo">
+        <div class="inner-container">
+            <h1 class="site-logo">
                 <a href="{{ site.url }}">
                     <img src="{{ site.url }}/images/logo--white.svg" alt="Event Store logo">
                 </a>         
             </h1>
-			<ul class="site-navigation">
-				<li class="site-navigation__item"><a href="{{ site.url }}/features">Features</a></li>
-				<li class="site-navigation__item"><a href="{{ site.url }}/downloads">Downloads</a></li>
-				<li class="site-navigation__item"><a href="http://docs.geteventstore.com">Docs</a></li>
-				<li class="site-navigation__item"><a href="{{ site.url }}/appliances">Appliances</a></li>
+            <ul class="site-navigation">
+                <li class="site-navigation__item"><a href="{{ site.url }}/features">Features</a></li>
+                <li class="site-navigation__item"><a href="{{ site.url }}/downloads">Downloads</a></li>
+                <li class="site-navigation__item"><a href="http://docs.geteventstore.com">Docs</a></li>
+                <li class="site-navigation__item"><a href="{{ site.url }}/appliances">Appliances</a></li>
                 <li class="site-navigation__item"><a href="{{ site.url }}/community">Community</a></li>
-				<li class="site-navigation__item"><a href="{{ site.url }}/support">Support</a></li>
-			</ul>
+                <li class="site-navigation__item"><a href="{{ site.url }}/support">Support</a></li>
+            </ul>
             <a href="javascript:void(0)" class="site-navigation-toggle">Menu</a>
         </div>
     </header>
