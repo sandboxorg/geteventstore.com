@@ -153,12 +153,14 @@
         }
 		h2 {
 			margin: 0;
-			font-size: 1.25rem;
+			font-size: 1rem;
 			font-weight: $font-heading-weight;
 			line-height: 1.5rem;
 		}
 		p {
 			margin: 0 0 1.5rem;
+            font-size: 0.75rem;
+            line-height: 1.5rem;
 		}
 	}
 }
