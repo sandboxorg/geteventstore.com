@@ -1,21 +1,13 @@
 .site-footer {
-    margin: 0 0 3rem;
+    margin: 1.5rem 0 0;
+    padding: 0 0 1.5rem;
     color: $grey;
     text-align: center;
+    @include clearfix;
     a {
         color: $grey;
         &:focus, &:hover {
             color: $grey-dark;
-        }
-    }
-    .inner-container {
-        padding: 3rem 0;
-        background-image: linear-gradient(180deg, $white-off 0%, $white-off 50%, transparent 50%, transparent 100%);
-        background-position: top left;
-        background-repeat: repeat-x;
-        background-size: 2px 2px;
-        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-            background-size: 1px 1px;
         }
     }
 }
@@ -23,13 +15,13 @@
 .footer__copyright {
 	float: left;
 	display: inline-block;
-	margin: 0 0 0 0.75rem;
+	margin: 0;
 }
 
 .footer__menu {
 	float: right;
 	display: inline-block;
-	margin: 0 0.75rem 0 0;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	@include clearfix;
@@ -40,4 +32,19 @@
 	display: inline-block;
 	margin: 0 0 0 0.75rem;
 	@include clearfix;
+}
+
+@media (max-width: 800px), (max-device-width: 800px) {
+    .footer__copyright, .footer__menu {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer__menu {
+        margin: 0 0.75rem 0 0;
+    }
+    .footer__menu__item {
+        float: none;
+    }
 }

@@ -1,18 +1,18 @@
-	<div class="site-footer">
-		{% if page.title == "Community" %}<div class="inner-container">{% else %}<div class="container">{% endif %}
-			<p class="footer__copyright">&copy; 2014 Event Store LLP. All rights reserved.</p>
-			<ul class="footer__menu">
-				<li class="footer__menu__item"><a href="{{ site.url }}">Home</a></li>
-				<li class="footer__menu__item"><a href="{{ site.url }}/about">About Us</a></li>
-				<li class="footer__menu__item"><a href="{{ site.url }}/blog">Blog</a></li>
-				<li class="footer__menu__item"><a href="http://www.redbubble.com/people/eventstore/shop">Shop</a></li>
-				<li class="footer__menu__item"><a href="{{ site.url }}/terms">Terms</a></li>
-				<li class="footer__menu__item"><a href="{{ site.url }}/contact">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+    {% if page.title == "Community" or page.title == "Homepage" %}<div class="inner-container">{% else %}<div class="container">{% endif %}
+        <div class="site-footer">
+            <p class="footer__copyright">&copy; 2014 Event Store LLP. All rights reserved.</p>
+            <ul class="footer__menu">
+                <li class="footer__menu__item"><a href="{{ site.url }}">Home</a></li>
+                <li class="footer__menu__item"><a href="{{ site.url }}/about">About Us</a></li>
+                <li class="footer__menu__item"><a href="{{ site.url }}/blog">Blog</a></li>
+                <li class="footer__menu__item"><a href="http://www.redbubble.com/people/eventstore/shop">Shop</a></li>
+                <li class="footer__menu__item"><a href="{{ site.url }}/terms">Terms</a></li>
+                <li class="footer__menu__item"><a href="{{ site.url }}/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="{{ site.url }}/js/scripts.min.js"></script>
-	{% include analytics.html %}
+{% include analytics.html %}
 </body>
 </html>
