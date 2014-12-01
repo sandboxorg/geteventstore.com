@@ -48,7 +48,7 @@
 .page-header--homepage {
 	@include shadowbox($grey-dark, $white);
 	margin-bottom: 1.5rem;
-	padding: 6rem 1.5rem;
+	padding: 9rem 1.5rem 7.5rem;
 	text-align: left;
 	background-image: linear-gradient(0deg, transparentize($grey-dark, 0.85) 0%, transparentize($grey-dark, 0.85) 100%),
 		url('../images/ouro.svg');
@@ -56,6 +56,7 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	h1, p {
+        max-width: 45rem;
 		margin: 0 0 1.5rem 1.5rem;
 	}
 	.call-to-action {
@@ -76,6 +77,9 @@
 			color: $white;
 		}
 	}
+    @media (max-width: 1000px), (max-device-width: 1000px) {
+        background-image: none;
+    }
 }
 
 .page-main {
