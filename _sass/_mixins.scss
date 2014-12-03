@@ -28,16 +28,6 @@
     }
 }
 
-@mixin overlined {
-    background-image: linear-gradient(180deg, $white-off 0%, $white-off 50%, transparent 50%, transparent 100%);
-    background-position: top left;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-size: 1px 1px;
-    }
-}
-
 %clearfix {
     &:after {
         content: " ";
