@@ -40,8 +40,9 @@
 }
 
 .docs-sidebar__list {
-    margin: 0;
-    padding: 3rem 0 0;
+    @include overlined;
+    margin: 4.5rem;
+    padding: 1.5rem 0 0;
     list-style: none;
     ul {
         margin: 0;
