@@ -51,10 +51,6 @@
     li {
         display: block;
         font-weight: 700;
-        .docs-sidebar__list > &:first-child {
-            @include underlined;
-            padding: 0 0 1.5em;
-        }
     }
     a {
         display: block;
