@@ -24,7 +24,7 @@
     display: none;
     float: left;
     width: 100%;
-    margin: 4.5rem 0;
+    margin: 1.5rem 0;
     padding: 0;
     @media (min-width: 720px) {
         display: block;
@@ -41,7 +41,7 @@
 
 .docs-sidebar__list {
     margin: 0;
-    padding: 0;
+    padding: 3rem 0 0;
     list-style: none;
     ul {
         margin: 0;
