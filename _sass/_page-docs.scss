@@ -125,9 +125,10 @@
     }
 }
 
-span.collapsed:after {
+.docs-sidebar__heading.collapsed:after, .docs-sidebar__version.collapsed:after {
     content: " +";
-    color: $grey-light;
+    color: $green-light;
+    font-weight: $font-heading-weight;
 }
 
 .expanded {
@@ -137,7 +138,8 @@ span.collapsed:after {
     }
 }
 
-span.expanded:after {
-    content: " -";
-    color: $grey-light;
+.docs-sidebar__heading.expanded:after, .docs-sidebar__version.expanded:after {
+    content: " −";
+    color: $green-light;
+    font-weight: $font-heading-weight;
 }
