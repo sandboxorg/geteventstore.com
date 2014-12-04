@@ -57,6 +57,10 @@
         display: block;
         padding: 1.5rem 0 0;
         background-image: none;
+        color: $green-light;
+        &:hover, &:focus {
+            color: $green;
+        }
     }
     li li {
         padding: 0 0 0 0.75rem;
@@ -119,11 +123,19 @@
     & + ul {
         display: none;
     }
+    &:after {
+        content: " +";
+        color: $grey;
+    }
 }
 
 .expanded {
     cursor: pointer;
     & + ul {
         display: block;
+    }
+    &:after {
+        content: " -";
+        color: $grey;
     }
 }
