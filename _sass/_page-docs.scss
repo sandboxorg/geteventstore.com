@@ -126,8 +126,9 @@
 }
 
 .docs-sidebar__heading.collapsed:after, .docs-sidebar__version.collapsed:after {
-    content: " +";
-    color: $green-light;
+    content: "+";
+    margin-left: 0.25rem;
+    color: $grey-mid;
     font-weight: $font-heading-weight;
 }
 
@@ -140,6 +141,7 @@
 
 .docs-sidebar__heading.expanded:after, .docs-sidebar__version.expanded:after {
     content: " −";
-    color: $green-light;
+    margin-left: 0.25rem;
+    color: $grey-mid;
     font-weight: $font-heading-weight;
 }
