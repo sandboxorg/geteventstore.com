@@ -123,10 +123,11 @@
     & + ul {
         display: none;
     }
-    &:after {
-        content: " +";
-        color: $grey;
-    }
+}
+
+span.collapsed:after {
+    content: " +";
+    color: $grey-light;
 }
 
 .expanded {
@@ -134,8 +135,9 @@
     & + ul {
         display: block;
     }
-    &:after {
-        content: " -";
-        color: $grey;
-    }
+}
+
+span.expanded:after {
+    content: " -";
+    color: $grey-light;
 }
