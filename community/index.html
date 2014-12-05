@@ -8,10 +8,10 @@ title: "Community"
 				<h1>{{ page.title }}</h1>
 		</div>
     </div>
-    <div class="inner-container">
-        <div class="page-section">
+    <div class="page-section--banner">
+        <div class="inner-container">
             <div class="page-section__half">
-                <p class="lead">Our developer community is important to us. It gives us a place to grow, and provides vital feedback and input to help us make Event Store a great product.</p>
+                <p class="lead">Our <strong>developer community</strong> is important to us. It gives us a place to grow, and provides <strong>vital feedback</strong> and input to help us make Event Store a <strong>great product</strong>.</p>
             </div>
             <div class="page-section__half">
                 <span class="community-intro-placeholder">&nbsp;</span>
@@ -20,76 +20,78 @@ title: "Community"
     </div>
     <div class="inner-container">
         <div class="page-section">
-            <ul class="contribution-stats">
-                <li class="contribution-stats__stat">
-                    <span class="value">35</span>
-                    <span class="label">GitHub Contributors</span>
-                </li>
-                <li class="contribution-stats__stat">
-                    <span class="value">1,010</span>
-                    <span class="label">Watchers/Stargazers</span>
-                </li>
-                <li class="contribution-stats__stat">
-                    <span class="value">184</span>
-                    <span class="label">Forks</span>
-                </li>
-                <li class="contribution-stats__stat">
-                    <span class="value">488</span>
-                    <span class="label">Google Group Members</span>
-                </li>
-                <li class="contribution-stats__stat">
-                    <span class="value">603</span>
-                    <span class="label">Google Group Topics</span>
-                </li>
-                <li class="contribution-stats__stat">
-                    <span class="value">1,504</span>
-                    <span class="label">Twitter Followers</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="inner-container">
-        <div class="page-section--no-border">
-            <div class="page-section__minor">
-                <h2>Contributors</h2>
-                <p>Amazing people are contributing their thoughts, feedback, code and enthusiasm to the Event Store community all the time. We like to promote and reward these contributions.</p>
-            </div>
             <div class="page-section__major">
-                <div class="community-feature">
-                    <img src="jakub-gutkowski.png" class="community-feature__image">
-                    <p class="community-feature__description"><a href="https://github.com/Gutek">Jakub Gutkowski</a> did some great work helping us build the new user interface for Event Store. The new UI was included in version 3.0.0 in September 2014.</p>
-                </div>
+                <ul class="discussion-icons">
+                    <li class="discussion-icons__item--google-group"><a href="https://groups.google.com/forum/#!forum/event-store">Google Group</a></li>
+                    <li class="discussion-icons__item--github"><a href="https://github.com/eventstore/eventstore/issues">GitHub Issues</a></li>
+                    <li class="discussion-icons__item--twitter"><a href="https://twitter.com/geteventstore">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="page-section__minor">
+                <h2>Join the Discussion</h2>
+                <p>Event Store has an active <a href="https://groups.google.com/forum/#!forum/event-store">Google Group</a> with <strong>new posts every day</strong>. This is the best place to share your questions and answers with the community.</p>
             </div>
         </div>
-    </div>
-    <div class="inner-container">
-        <ul class="c2a-buttons">
-            <li class="c2a-buttons__item"><a href="https://groups.google.com/forum/#!forum/event-store">Google Group</a></li>
-            <li class="c2a-buttons__item"><a href="https://github.com/eventstore">GitHub Repositories</a></li>
-            <li class="c2a-buttons__item"><a href="https://twitter.com/geteventstore">Twitter</a></li>
-        </ul>
     </div>
     <div class="inner-container">
         <div class="page-section">
-			<h2>Events</h2>
-			<ul>
-                <li>
-                    <h3><a href="http://www.ndc-london.com">NDC London 2014</a></h3>
-                    <p>The famous Norwegian Developer's Conference returns to London. James Nugent will be speaking.</p>
-                    <p>1-5 Dec 2014</p>
-                    <p>London, England</p>
+            <ul class="contribution-stats">
+                {% for stat in site.data.stats.stats %}
+                <li class="contribution-stats__stat">
+                    <span class="value">{{ stat.value }}</span>
+                    <span class="label">{{ stat.key }}</span>
                 </li>
-                <li>
-                    <h3><a href="http://rigadevday.lv">Riga Dev Day</a></h3>
-                    <p>Software conference in Riga, Latvia with tracks covering JVM and web development, databases, DevOps and other case studies. James Nugent will be speaking.</p>
-                    <p>22 Jan 2015</p>
-                    <p>Riga, Latvia</p>
-                </li>
+                {% endfor %}
             </ul>
-			<p>We try to keep this list of events involving or relating to Event Store as up-to-date as possible. If you are involved in an event that isn’t listed here, but you think might be relevant, please let us know!</p>
-			<p class="call-to-action">
-				<a href="mailto:dan@geteventstore.com?subject=Event%20Suggestion" class="btn btn--secondary">Suggest an event</a>
-			</p>
-		</div>
+        </div>
     </div>
+    <div class="inner-container">
+        <div class="page-section">
+            <div class="page-section__minor">
+                <h2>Attend an Event</h2>
+                <p><strong>We attend events all over the world. Come say hi!</strong> If there’s an event you think would be interesting to Event Store users that isn’t listed here, please let us know.</p>
+                <p>We have stickers and other goodies ready to send out to anyone who is planning to talk about Event Store at an event.</p>
+                <p><a href="https://twitter.com/geteventstore" class="btn btn--primary">Send us a Tweet</a></p>
+            </div>
+            <div class="page-section__major">
+                <ul class="events">
+                    {% for event in site.data.events.events %}
+                    <li class="events__item">
+                        <h3 class="event-title"><a href="{{ event.url }}"><span class="flag-icon flag-icon-{{ event.countrycode }} flag-icon-squared"></span> {{ event.name }}</a></h3>
+                        <p class="event-info">{{ event.info }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--     <div class="inner-container">
+        <div class="page-section">
+            <h2>Resources</h2>
+            <section class="resource-section">
+                <h3 class="resource-section__title">Articles &amp; Blogs</h3>
+                <ul class="resource-list">
+                    <li class="resource-list__item"><a href="#">Resource Item</a></li>
+                </ul>
+            </section>
+            <section class="resource-section">
+                <h3 class="resource-section__title">Videos &amp; Slides</h3>
+                <ul class="resource-list">
+                    <li class="resource-list__item"><a href="#">Resource Item</a></li>
+                </ul>
+            </section>
+            <section class="resource-section">
+                <h3 class="resource-section__title">Third-Party Projects</h3>
+                <ul class="resource-list">
+                    <li class="resource-list__item"><a href="#">Resource Item</a></li>
+                </ul>
+            </section>
+            <section class="resource-section">
+                <h3 class="resource-section__title">Brand Assets</h3>
+                <ul class="resource-list">
+                    <li class="resource-list__item"><a href="#">Resource Item</a></li>
+                </ul>
+            </section>
+        </div>
+    </div> -->
 {% include footer.html %}
