@@ -96,14 +96,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: table;
 }
 
 .c2a-buttons__item {
     -moz-box-sizing: border-box;
          box-sizing: border-box;
-    display: table-cell;
-    width: 100%;
+    display: inline-block;
+    width: (calc 33.333% - 1px);
     float: left;
     
     a {
