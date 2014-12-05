@@ -101,10 +101,9 @@
 .c2a-buttons__item {
     -moz-box-sizing: border-box;
          box-sizing: border-box;
-    display: inline-block;
-    width: (calc 33.333% - 1px);
+    display: block;
+    width: 100%;
     float: left;
-    
     a {
         height: 100%;
         display: block;
