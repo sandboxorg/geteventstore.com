@@ -109,8 +109,8 @@ pre {
 table {
     -moz-box-sizing: border-box;
          box-sizing: border-box;
+    display: block;
     width: 100%;
-    overflow: hidden;
     overflow-x: auto;
     margin: 1.5rem auto;
     border-right: 1px solid $grey-light;
