@@ -187,7 +187,7 @@
     }
 }
 
-.docs-sidebar__version {
+.docs-sidebar__version.expanded, .docs-sidebar__version.collapsed {
     &:before {
         @media (min-width: 720px) {
             top: 0.125rem !important;
