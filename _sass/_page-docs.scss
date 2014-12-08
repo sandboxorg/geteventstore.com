@@ -143,6 +143,7 @@
 
 .docs-sidebar__heading.collapsed:after, .docs-sidebar__version.collapsed:after {
     content: " ";
+    display: inline-block;
     height: 1rem;
     width: 1rem;
     margin-left: 0.25rem;
@@ -162,6 +163,7 @@
 
 .docs-sidebar__heading.expanded:after, .docs-sidebar__version.expanded:after {
     content: " ";
+    display: inline-block;
     height: 1rem;
     width: 1rem;
     margin-left: 0.25rem;
