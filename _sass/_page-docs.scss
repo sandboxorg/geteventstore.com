@@ -142,10 +142,15 @@
 }
 
 .docs-sidebar__heading.collapsed:after, .docs-sidebar__version.collapsed:after {
-    content: "+";
+    content: " ";
+    height: 1rem;
+    width: 1rem;
     margin-left: 0.25rem;
     color: $grey-mid;
-    font-weight: $font-heading-weight;
+    background-image: url('../images/carrot-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .expanded {
@@ -156,8 +161,13 @@
 }
 
 .docs-sidebar__heading.expanded:after, .docs-sidebar__version.expanded:after {
-    content: " −";
+    content: " ";
+    height: 1rem;
+    width: 1rem;
     margin-left: 0.25rem;
     color: $grey-mid;
-    font-weight: $font-heading-weight;
+    background-image: url('../images/carrot-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
