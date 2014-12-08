@@ -144,8 +144,8 @@
 .docs-sidebar__heading.collapsed, .docs-sidebar__version.collapsed {
     background-image: url('../images/carrot-right.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: bottom right;
+    background-size: 1rem 1rem;
 }
 
 .expanded {
@@ -158,6 +158,6 @@
 .docs-sidebar__heading.expanded, .docs-sidebar__version.expanded {
     background-image: url('../images/carrot-down.svg');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: bottom right;
+    background-size: 1rem 1rem;
 }
