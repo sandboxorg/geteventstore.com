@@ -187,6 +187,6 @@
     }
 }
 
-li ul li .docs-sidebar__heading:after {
-    top: 0;
+.docs-sidebar__list li ul li span.docs-sidebar__heading:after {
+    top: 0.125rem !important;
 }
