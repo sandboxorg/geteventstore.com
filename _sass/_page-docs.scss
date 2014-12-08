@@ -148,16 +148,18 @@
 
 .docs-sidebar__heading.collapsed, .docs-sidebar__version.collapsed {
     &:before {
-        content: " ";
-        height: 1rem;
-        width: 1rem;
-        position: absolute;
-        top: 1.625rem;
-        left: -1.25rem;
-        background-image: url('../images/carrot-right.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+        @media (min-width: 720px) {
+            content: " ";
+            height: 1rem;
+            width: 1rem;
+            position: absolute;
+            top: 1.625rem;
+            left: -1.25rem;
+            background-image: url('../images/carrot-right.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
     }
 }
 
@@ -170,16 +172,18 @@
 
 .docs-sidebar__heading.expanded, .docs-sidebar__version.expanded {
     &:before {
-        content: " ";
-        height: 1rem;
-        width: 1rem;
-        position: absolute;
-        top: 1.625rem;
-        left: -1.25rem;
-        background-image: url('../images/carrot-down.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+        @media (min-width: 720px) {
+            content: " ";
+            height: 1rem;
+            width: 1rem;
+            position: absolute;
+            top: 1.625rem;
+            left: -1.25rem;
+            background-image: url('../images/carrot-down.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
     }
 }
 
