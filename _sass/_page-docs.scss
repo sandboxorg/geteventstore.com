@@ -141,11 +141,15 @@
     }
 }
 
+.docs-sidebar__heading span {
+    display: block;
+}
+
 .docs-sidebar__heading.collapsed, .docs-sidebar__version.collapsed {
     background-image: url('../images/carrot-right.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 0.75rem;
+    background-size: 1rem;
 }
 
 .expanded {
@@ -159,5 +163,5 @@
     background-image: url('../images/carrot-down.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 0.75rem;
+    background-size: 1rem;
 }
