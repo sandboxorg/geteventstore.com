@@ -134,16 +134,16 @@
     }
 }
 
+.docs-sidebar__heading, .docs-sidebar__version {
+    display: block;
+    position: relative;
+}
+
 .collapsed {
     cursor: pointer;
     & + ul {
         display: none;
     }
-}
-
-.docs-sidebar__heading, .docs-sidebar__heading span {
-    display: block;
-    position: relative;
 }
 
 .expanded {
