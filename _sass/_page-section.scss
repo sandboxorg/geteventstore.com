@@ -296,8 +296,8 @@
     max-width: 42rem;
     margin: 1.5rem 0;
     padding: 1.5rem;
-    background: #CCE6FF;
-    color: #00336F;
+    background: #DDF0FF;
+    color: #00669F;
     border-radius: 0.25rem;
     color: $black;
     font-style: italic;
@@ -306,5 +306,5 @@
 .note--warning {
     @extend .note;
     background: #FFF6AA;
-    color: #6F6300;
+    color: #9F9300;
 }
