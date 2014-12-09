@@ -96,6 +96,12 @@
         max-width: 42rem;
         margin: 1.5rem 0;
     }
+    li {
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
     img {
         width: auto;
         margin: 1.5rem auto;
