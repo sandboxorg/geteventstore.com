@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "NDC London 2014",
-            "url": "http://www.ndc-london.com",
-            "info": "1–5 Dec 2014, London, UK",
-            "countrycode": "gb"
-        },
-        {
             "name": "Riga Dev Day",
             "url": "http://rigadevday.lv",
             "info": "22 Jan 2015, Riga, Latvia",
@@ -17,6 +11,17 @@
             "url": "http://buildstuff.lt",
             "info": "18–20 Nov 2015, Vilnius, Lithuania",
             "countrycode": "lt"
+        }
+    ]
+}
+
+{
+    "pastevents":[
+        {
+            "name": "NDC London 2014",
+            "url": "http://www.ndc-london.com",
+            "info": "1–5 Dec 2014, London, UK",
+            "countrycode": "gb"
         }
     ]
 }
