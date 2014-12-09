@@ -298,7 +298,7 @@
     padding: 1.5rem;
     background: #DDF0FF;
     color: #00669F;
-    border-radius: 0.25rem;
+    border-left: 0.25rem solid #00669F;
     font-style: italic;
 }
 
@@ -306,4 +306,5 @@
     @extend .note;
     background: #FFF6AA;
     color: #6F6300;
+    border-left: 0.25rem solid #6F6300;
 }
