@@ -15,7 +15,7 @@ html {
 body {
     margin: 0;
     background: $white;
-    color: $grey;
+    color: $grey-dark;
     font-family: $font-base;
     font-weight: $font-base-weight;
     line-height: 1.5rem;
@@ -36,9 +36,10 @@ a {
 
 blockquote {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: italic;
     line-height: 1.5rem;
+    color: $grey;
 }
 
 p, h1, h2, h3 {
