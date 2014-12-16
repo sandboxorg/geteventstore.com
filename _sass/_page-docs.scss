@@ -115,9 +115,6 @@
     }
     table {
         margin: 0;
-        @media (min-width: 720px) {
-            margin: 0 -0.75rem;
-        }
     }
     @media (min-width: 720px) {
         width: calc(100% - 21rem);
