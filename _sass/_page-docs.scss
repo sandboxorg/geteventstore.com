@@ -72,6 +72,12 @@
 .docs-content {
     float: left;
     width: 100%;
+    blockquote {
+        -moz-box-sizing: border-box;
+        padding-left: 1.5rem;
+        border-left: 0.25rem solid $grey-light;
+        max-width: 42rem;
+    }
     h1 {
         padding: 0 0 1.5rem;
         @include underlined;
