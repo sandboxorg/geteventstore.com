@@ -105,7 +105,7 @@ pre {
 
 table {
     max-width: 100%;
-    overflow: auto;
+    // overflow: auto;
     margin: 1.5rem auto;
     border-right: 1px solid $grey-light;
     border-left: 1px solid $grey-light;
@@ -113,6 +113,14 @@ table {
     h3, p {
         margin: 0;
     }
+}
+
+thead, tbody {
+    display: block;
+    width: auto;
+    // position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 tr {
