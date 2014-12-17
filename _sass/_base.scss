@@ -29,9 +29,12 @@ body {
 }
 
 a {
-    color: $green;
+    color: $green-light;
     text-decoration: none;
     @include underlined;
+    &:focus, &:hover {
+        color: $green;
+    }
 }
 
 blockquote {
