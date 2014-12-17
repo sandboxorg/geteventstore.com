@@ -116,12 +116,9 @@
     table {
         -moz-box-sizing: border-box;
              box-sizing: border-box;
-        display: block;
         margin: 0;
+        display: block;
         overflow-x: auto;
-    }
-    thead, tbody {
-        white-space: nowrap;
     }
     @media (min-width: 720px) {
         width: calc(100% - 21rem);
