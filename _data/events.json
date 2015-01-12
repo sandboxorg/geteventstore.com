@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "Data Day Texas 2015",
-            "url": "http://datadaytexas.com",
-            "info": "10th Jan 2015, Austin TX, USA",
-            "countrycode": "us"
-        },
-        {
             "name": "Riga Dev Day",
             "url": "http://rigadevday.lv",
             "info": "22 Jan 2015, Riga, Latvia",
@@ -35,6 +29,12 @@
 
 {
     "pastevents":[
+        {
+            "name": "Data Day Texas 2015",
+            "url": "http://datadaytexas.com",
+            "info": "10 Jan 2015, Austin TX, USA",
+            "countrycode": "us"
+        },
         {
             "name": "NDC London 2014",
             "url": "http://www.ndc-london.com",
