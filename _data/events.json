@@ -37,6 +37,12 @@
             "url": "http://www.ndc-london.com",
             "info": "1–5 Dec 2014, London, UK",
             "countrycode": "gb"
+        },
+        {
+            "name": "Build Stuff 2014",
+            "url": "http://buildstuff.lt",
+            "info": "19–21 Nov 2014, Vilnius, Lithuania",
+            "countrycode": "lt"
         }
     ]
 }

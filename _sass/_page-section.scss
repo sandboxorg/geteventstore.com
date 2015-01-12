@@ -173,9 +173,26 @@
     }
 }
 
+.events__item--showpast {
+    @extend .events__item;
+    opacity: 0.5;
+    a {
+        display: block;
+        line-height: 3.75rem;
+        background-image: none;
+        color: $grey-dark;
+        text-align: center;
+        font-weight: $font-heading-weight;
+    }
+}
+
 .events__item--past {
     @extend .events__item;
     opacity: 0.5;
+    display: none;
+    .flag-icon {
+        opacity: 0.5;
+    }
 }
 
 .event-title {
