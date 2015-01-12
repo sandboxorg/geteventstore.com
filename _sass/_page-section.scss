@@ -173,6 +173,11 @@
     }
 }
 
+.events__item--past {
+    @extend .events-item;
+    opacity: 0.5;
+}
+
 .event-title {
     margin: 0;
     font-size: 1.25rem;
@@ -186,6 +191,9 @@
     }
     a {
         background-image: none;
+        .events__item--past & {
+            color: $grey-dark;
+        }
     }
 }
 
