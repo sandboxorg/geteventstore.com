@@ -174,7 +174,7 @@
 }
 
 .events__item--past {
-    @extend .events-item;
+    @extend .events__item;
     opacity: 0.5;
 }
 
