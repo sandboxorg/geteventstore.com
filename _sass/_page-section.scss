@@ -335,10 +335,10 @@
 
 .new-label {
     display: inline-block;
-    padding: 0.125rem;
     background: $green;
+    border-radius: 0.25rem;
     color: $white;
     font-size: 0.75rem;
-    line-height: 0.75rem;
+    line-height: 1rem;
     text-transform: uppercase;
 }
