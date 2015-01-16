@@ -1,0 +1,34 @@
+{
+    "blogs":[
+        {
+            "name": "Event Store BLog",
+            "url": "http://geteventstore.com/blog"
+        }
+    ],
+    "videos": [
+        {
+            "name": "Ouro’s 2nd Birthday",
+            "url": "http://geteventstore.com/blog/20141112/video-of-ouros-2nd-birthday"
+        },
+        {
+            "name": "Event Store as a Read Model",
+            "url": "https://skillsmatter.com/skillscasts/3836-event-store-as-a-read-model"
+        }
+    ],
+    "projects": [
+        {
+            "name": "YoEight’s Haskell TCP Client",
+            "url": "https://github.com/YoEight/eventstore"
+        }
+    ],
+    "brand": [
+        {
+            "name": "Event Store Logos and Images",
+            "url": "https://github.com/EventStore/Brand"
+        },
+        {
+            "name": "Event Store Colour Palette",
+            "url": "https://github.com/EventStore/Brand/blob/master/Colours.md"
+        }
+    ]
+}
