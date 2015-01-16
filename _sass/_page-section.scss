@@ -332,3 +332,13 @@
     color: darken($note-warning, 75%);
     border-left: 0.75rem solid darken($note-warning, 10%);
 }
+
+.new-label {
+    display: inline-block;
+    padding: 0.375rem;
+    background: $green;
+    color: $white;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    text-transform: uppercase;
+}

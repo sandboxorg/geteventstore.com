@@ -18,7 +18,8 @@
     "projects": [
         {
             "name": "YoEight’s Haskell TCP Client",
-            "url": "https://github.com/YoEight/eventstore"
+            "url": "https://github.com/YoEight/eventstore",
+            "flag": "new"
         }
     ],
     "goodies": [

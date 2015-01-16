@@ -85,7 +85,7 @@ title: "Community"
                 <h3 class="resource-section__title">Blogs</h3>
                 <ul class="resource-list">
                     {% for resource in site.data.resources.blogs %}
-                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}{% if resource.flag == "new" %} <span class="new-label">New!</span>{% endif %}</a></li>
                     {% endfor %}
                 </ul>
             </section>
@@ -93,7 +93,7 @@ title: "Community"
                 <h3 class="resource-section__title">Videos</h3>
                 <ul class="resource-list">
                     {% for resource in site.data.resources.videos %}
-                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}{% if resource.flag == "new" %} <span class="new-label">New!</span>{% endif %}</a></li>
                     {% endfor %}
                 </ul>
             </section>
@@ -101,7 +101,7 @@ title: "Community"
                 <h3 class="resource-section__title">Third-Party Projects</h3>
                 <ul class="resource-list">
                     {% for resource in site.data.resources.projects %}
-                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}{% if resource.flag == "new" %} <span class="new-label">New!</span>{% endif %}</a></li>
                     {% endfor %}
                 </ul>
             </section>
@@ -109,7 +109,7 @@ title: "Community"
                 <h3 class="resource-section__title">Goodies</h3>
                 <ul class="resource-list">
                     {% for resource in site.data.resources.goodies %}
-                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}{% if resource.flag == "new" %} <span class="new-label">New!</span>{% endif %}</a></li>
                     {% endfor %}
                 </ul>
             </section>
