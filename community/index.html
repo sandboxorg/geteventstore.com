@@ -82,29 +82,35 @@ title: "Community"
         <div class="page-section">
             <h2>Resources</h2>
             <section class="resource-section">
-                <h3 class="resource-section__title">Articles &amp; Blogs</h3>
+                <h3 class="resource-section__title">Blogs</h3>
                 <ul class="resource-list">
-                    <li class="resource-list__item"><a href="/blog">Event Store Blog</a></li>
+                    {% for resource in site.data.resources.blogs %}
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    {% endfor %}
                 </ul>
             </section>
             <section class="resource-section">
                 <h3 class="resource-section__title">Videos</h3>
                 <ul class="resource-list">
-                    <li class="resource-list__item"><a href="http://geteventstore.com/blog/20141112/video-of-ouros-2nd-birthday/">Ouro’s 2nd Birthday</a></li>
-                    <li class="resource-list__item"><a href="https://skillsmatter.com/skillscasts/3836-event-store-as-a-read-model">Event Store As a Read Model</a></li>
+                    {% for resource in site.data.resources.videos %}
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    {% endfor %}
                 </ul>
             </section>
             <section class="resource-section">
                 <h3 class="resource-section__title">Third-Party Projects</h3>
                 <ul class="resource-list">
-                    <li class="resource-list__item"><a href="https://github.com/YoEight/eventstore">YoEight’s Haskell TCP Client</a></li>
+                    {% for resource in site.data.resources.projects %}
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    {% endfor %}
                 </ul>
             </section>
             <section class="resource-section">
-                <h3 class="resource-section__title">Brand Assets</h3>
+                <h3 class="resource-section__title">Goodies</h3>
                 <ul class="resource-list">
-                    <li class="resource-list__item"><a href="https://github.com/EventStore/Brand">Event Store Logos &amp; Images</a></li>
-                    <li class="resource-list__item"><a href="https://github.com/EventStore/Brand/blob/master/Colours.md">Event Store Colour Palette</a></li>
+                    {% for resource in site.data.resources.goodies %}
+                    <li class="resource-list__item"><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+                    {% endfor %}
                 </ul>
             </section>
         </div>
