@@ -21,7 +21,7 @@
             "url": "https://github.com/YoEight/eventstore"
         }
     ],
-    "brand": [
+    "goodies": [
         {
             "name": "Event Store Logos and Images",
             "url": "https://github.com/EventStore/Brand"
@@ -29,6 +29,10 @@
         {
             "name": "Event Store Colour Palette",
             "url": "https://github.com/EventStore/Brand/blob/master/Colours.md"
+        },
+        {
+            "name": "Papercraft Ouro Template",
+            "url": "http://geteventstore.com/downloads/papercraft-ouro.pdf"
         }
     ]
 }
