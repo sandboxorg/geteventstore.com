@@ -340,3 +340,57 @@
     line-height: 1.5rem;
     text-transform: uppercase;
 }
+
+.page-appliances {
+    & h1, & p.lead {
+        margin-left: 0;
+    }
+}
+
+.price {
+    color: $green-light;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+
+.page-section--appliances {
+    margin: 1.5rem 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: none;
+    background-position: right -10%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border: 1px solid $white-off;
+    border-radius: 0.25rem;
+    @media (min-width: 720px) {
+        background-image: url('../images/appliance.jpg');
+    }
+    table {
+        @media (min-width: 720px) {
+            margin: 0 1.5rem 0 0;
+        }
+    }
+    th, td {
+        text-align: center;
+        &:first-child {
+            border-right: 1px solid $white-off;
+        }
+    }
+    .btn {
+        clear: both;
+        margin: 0.75rem 0;
+    }
+}
+
+.appliances-padding {
+    padding: 1.5rem;
+}
+
+.appliances-padding--description {
+    padding: 1.5rem;
+    @media (min-width: 720px) {
+        padding: 15rem 1.5rem 1.5rem;
+    }
+}
