@@ -99,6 +99,19 @@
     }
 }
 
+.support-intro-placeholder {
+    display: none;
+    width: 100%;
+    min-height: 12rem;
+    background-image: url("../images/servers.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media (min-width: 720px) {
+        display: block;
+    }
+}
+
 .community-feature {
     float: right;
     background: $white-off;
