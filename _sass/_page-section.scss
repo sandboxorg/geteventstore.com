@@ -23,12 +23,43 @@
     background-image: none;
 }
 
+.page-section--oem {
+    @extend .page-section;
+    @media (min-width: 800px) {
+        background-image: url('../images/oem-robot.svg'), linear-gradient(0deg, $white-off 0%, $white-off 50%, transparent 50%, transparent 100%);
+        background-position: right bottom, left bottom;
+        background-repeat: no-repeat, repeat-x;
+        background-size: contain, 2px 2px;
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            background-size: contain, 1px 1px;
+        }
+    }
+    .call-to-action {
+        margin: 1.5rem 0;
+    }
+}
+
+.page-section--appliances {
+    @extend .page-section;
+    p.left {
+        text-align: left;
+    }
+}
+
 .page-section--banner {
     @extend .page-section;
     // background-image: linear-gradient(0deg, $white 0%, $white-off 100%);
     // background-size: 100%;
     background: $grey-light;
     color: $white;
+}
+
+.page-section--support-banner {
+    @extend .page-section--banner;
+    background: lighten($grey-dark, 10%);
+    p.lead {
+        color: $white;
+    }
 }
 
 .page-section__half {
@@ -60,6 +91,19 @@
     width: 100%;
     min-height: 12rem;
     background-image: url("../images/community-ouros.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media (min-width: 720px) {
+        display: block;
+    }
+}
+
+.support-intro-placeholder {
+    display: none;
+    width: 100%;
+    min-height: 12rem;
+    background-image: url("../images/servers.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -339,4 +383,56 @@
     font-weight: $font-heading-weight;
     line-height: 1.5rem;
     text-transform: uppercase;
+}
+
+.page-appliances {
+    & h1, & p.lead {
+        margin-left: 0;
+    }
+}
+
+.price {
+    color: $green-light;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+
+.col {
+    p {
+        text-align: center;
+    }
+    h3 {
+        padding: 0.75rem;
+        background: $white-off;
+        text-align: center;
+    }
+    .call-to-action {
+        margin: 1.5rem 0;
+    }
+    .muted {
+        color: $grey;
+    }
+    @media (min-width: 720px) {
+        float: left;
+        width: calc(33.333% - 1rem);
+        &:nth-child(2) {
+            margin: 0 1.5rem;
+        }
+    }
+}
+
+.col__title--community {
+    background: $grey-light !important;
+    color: $grey-dark;
+}
+
+.col__title--commercial {
+    background: $grey-dark !important;
+    color: $white;
+}
+
+.col__title--enterprise {
+    background: $black !important;
+    color: $white;
 }
