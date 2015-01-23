@@ -1,42 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 2048 1024" enable-background="new 0 0 2048 1024" height="1024" width="2048" xml:space="preserve">
-<circle id="Indicator" fill="#5AB552" cx="401" cy="144" r="16"/>
-<path id="Server_Chassis" fill="#313C47" d="M505,67.2L505,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2l0,0
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2048 1024" enable-background="new 0 0 2048 1024" height="1024" width="2048" xml:space="preserve">
+
+<path fill="#313C47" d="M505,67.2L505,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2l0,0
 	l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V80C513,75.2,509.8,70.4,505,67.2z M117.8,32h278.4
 	l48,32H69.8L117.8,32z M33,96h448v128H33V96z"/>
-<circle id="Indicator_1_" fill="#5AB552" cx="401" cy="528" r="16"/>
-<path id="Server_Chassis_1_" fill="#313C47" d="M505,451.2L505,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M505,451.2L505,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V464C513,459.2,509.8,454.4,505,451.2z
 	 M117.8,416h278.4l48,32H69.8L117.8,416z M33,480h448v128H33V480z"/>
-<circle id="Indicator_3_" fill="#5AB552" cx="1169" cy="144" r="16"/>
-<path id="Server_Chassis_3_" fill="#313C47" d="M1273,67.2L1273,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M1273,67.2L1273,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V80C1281,75.2,1277.8,70.4,1273,67.2z M885.8,32
 	h278.4l48,32H837.8L885.8,32z M801,96h448v128H801V96z"/>
-<circle id="Indicator_2_" fill="#5AB552" cx="1169" cy="528" r="16"/>
-<path id="Server_Chassis_2_" fill="#313C47" d="M1273,451.2L1273,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M1273,451.2L1273,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V464C1281,459.2,1277.8,454.4,1273,451.2z
 	 M885.8,416h278.4l48,32H837.8L885.8,416z M801,480h448v128H801V480z"/>
-<circle id="Indicator_6_" fill="#5AB552" cx="401" cy="912" r="16"/>
-<path id="Server_Chassis_6_" fill="#313C47" d="M505,835.2L505,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M505,835.2L505,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H113c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V848C513,843.2,509.8,838.4,505,835.2z
 	 M117.8,800h278.4l48,32H69.8L117.8,800z M33,864h448v128H33V864z"/>
-<circle id="Indicator_4_" fill="#5AB552" cx="1169" cy="912" r="16"/>
-<path id="Server_Chassis_4_" fill="#313C47" d="M1273,835.2L1273,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M1273,835.2L1273,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2H881c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V848C1281,843.2,1277.8,838.4,1273,835.2z
 	 M885.8,800h278.4l48,32H837.8L885.8,800z M801,864h448v128H801V864z"/>
-<circle id="Indicator_9_" fill="#5AB552" cx="1937" cy="144" r="16"/>
-<path id="Server_Chassis_9_" fill="#313C47" d="M2041,67.2L2041,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288c-3.2,0-6.4,1.6-8,3.2
+
+<path fill="#313C47" d="M2041,67.2L2041,67.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288c-3.2,0-6.4,1.6-8,3.2
 	l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V80C2049,75.2,2045.8,70.4,2041,67.2z
 	 M1653.8,32h278.4l48,32h-374.4L1653.8,32z M1569,96h448v128h-448V96z"/>
-<circle id="Indicator_8_" fill="#5AB552" cx="1937" cy="528" r="16"/>
-<path id="Server_Chassis_8_" fill="#313C47" d="M2041,451.2L2041,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288
+
+<path fill="#313C47" d="M2041,451.2L2041,451.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288
 	c-3.2,0-6.4,1.6-8,3.2l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V464
 	C2049,459.2,2045.8,454.4,2041,451.2z M1653.8,416h278.4l48,32h-374.4L1653.8,416z M1569,480h448v128h-448V480z"/>
-<circle id="Indicator_5_" fill="#5AB552" cx="1937" cy="912" r="16"/>
-<path id="Server_Chassis_5_" fill="#313C47" d="M2041,835.2L2041,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288
+
+<path fill="#313C47" d="M2041,835.2L2041,835.2l-96-64l0,0c-1.6-1.6-4.8-3.2-8-3.2h-288
 	c-3.2,0-6.4,1.6-8,3.2l0,0l-96,64l0,0c-4.8,3.2-8,8-8,12.8v160c0,9.6,6.4,16,16,16h480c9.6,0,16-6.4,16-16V848
 	C2049,843.2,2045.8,838.4,2041,835.2z M1653.8,800h278.4l48,32h-374.4L1653.8,800z M1569,864h448v128h-448V864z"/>
+
+<circle id="light-1" fill="#313C47" cx="401" cy="144" r="16"/>
+<circle id="light-2" fill="#313C47" cx="401" cy="528" r="16"/>
+<circle id="light-3" fill="#313C47" cx="401" cy="912" r="16"/>
+<circle id="light-4" fill="#313C47" cx="1169" cy="144" r="16"/>
+<circle id="light-5" fill="#313C47" cx="1169" cy="528" r="16"/>
+<circle id="light-6" fill="#313C47" cx="1169" cy="912" r="16"/>
+<circle id="light-7" fill="#313C47" cx="1937" cy="144" r="16"/>
+<circle id="light-8" fill="#313C47" cx="1937" cy="528" r="16"/>
+<circle id="light-9" fill="#313C47" cx="1937" cy="912" r="16"/>
+
+<animate xlink:href="#light-1" attributeName="fill" from="#5BA552" to="#313C47" begin="0.00" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-2" attributeName="fill" from="#5BA552" to="#313C47" begin="0.10" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-3" attributeName="fill" from="#5BA552" to="#313C47" begin="0.20" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-4" attributeName="fill" from="#5BA552" to="#313C47" begin="0.10" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-5" attributeName="fill" from="#5BA552" to="#313C47" begin="0.20" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-6" attributeName="fill" from="#5BA552" to="#313C47" begin="0.30" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-7" attributeName="fill" from="#5BA552" to="#313C47" begin="0.20" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-8" attributeName="fill" from="#5BA552" to="#313C47" begin="0.30" dur="0.5s" repeatCount="indefinite" />
+<animate xlink:href="#light-9" attributeName="fill" from="#5BA552" to="#313C47" begin="0.40" dur="0.5s" repeatCount="indefinite" />
+
 </svg>
