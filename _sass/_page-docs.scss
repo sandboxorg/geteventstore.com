@@ -147,6 +147,12 @@
     }
 }
 
+.docs-lead--bottom {
+    @extend .docs-lead;
+    background-color: $white-off;
+    color: $grey-dark;
+}
+
 .docs-sidebar__heading, .docs-sidebar__version {
     display: block;
     position: relative;
