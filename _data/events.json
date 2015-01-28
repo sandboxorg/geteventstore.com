@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "Riga Dev Day",
-            "url": "http://rigadevday.lv",
-            "info": "22 Jan 2015, Riga, Latvia",
-            "countrycode": "lv"
-        },
-        {
             "name": "Conf Conf",
             "url": "http://conf-conf.com",
             "info": "30 Jan 2015, Birmingham, UK",
@@ -26,6 +20,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "Riga Dev Day",
+            "url": "http://rigadevday.lv",
+            "info": "22 Jan 2015, Riga, Latvia",
+            "countrycode": "lv"
+        },
         {
             "name": "Data Day Texas 2015",
             "url": "http://datadaytexas.com",
