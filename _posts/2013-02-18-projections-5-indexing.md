@@ -5,7 +5,7 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-Now we can start getting to some of the interesting things in Projections. It was quite odd, as I was leading up to this post last night we got into a <strong>very long</strong> discussion about indexing inside the Event Store on twitter. Mike Brown noted that it would be really useful if we built lucene like indexing into the system so he could use the Event Store as an Audit Log that was easily searchable by things like correlationId and username. While the indexing is very different than something like lucene it is still quite possible.
+Now we can start getting to some of the interesting things in Projections. It was quite odd, as I was leading up to this post last night we got into a **very long** discussion about indexing inside the Event Store on twitter. Mike Brown noted that it would be really useful if we built lucene like indexing into the system so he could use the Event Store as an Audit Log that was easily searchable by things like correlationId and username. While the indexing is very different than something like lucene it is still quite possible.
 
 In order to get into indexing we will need to introduce a new basic operation linkTo. linkTo works very similarly to emit except when you linkTo("stream", event) it does not actually write the event to the stream. It instead emits a pointer to the event to the stream. When you resolve "stream" you will see the event as if it was part of that stream but that is due to the resolution of the pointer (with the TCP API you can say whether or not you want to resolve links). Let's try an example.
 

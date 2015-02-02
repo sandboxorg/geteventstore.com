@@ -5,7 +5,7 @@ author: "James Nugent"
 layout: blog-post
 ---
 
-<p class="lead">As we gear up to launch version 3.0.0 of Event Store <a href="http://geteventstore.com/two-years-on">at our annual birthday
+<p class="lead">As we gear up to launch version 3.0.0 of Event Store <a href="/two-years-on">at our annual birthday
 party (which you should totally come
 to!)</a>, we decided it would be a good
 idea to run a short series of articles describing some of the new features and

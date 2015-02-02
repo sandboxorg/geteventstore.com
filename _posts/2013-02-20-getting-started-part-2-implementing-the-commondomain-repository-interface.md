@@ -5,9 +5,9 @@ author: "James Nugent"
 layout: blog-post
 ---
 
-Jon Oliver’s excellent <a title="CommonDomain" href="https://github.com/joliver/CommonDomain" target="_blank">CommonDomain</a> project has been around for some time, and many developers have built systems either using it directly or using it as inspiration for their own Aggregate + Event Sourcing base classes and repository interfaces. In this post, we’ll look at implementing the `IRepository` interface using the Event Store for storage.
+Jon Oliver’s excellent [CommonDomain](https://github.com/joliver/CommonDomain) project has been around for some time, and many developers have built systems either using it directly or using it as inspiration for their own Aggregate + Event Sourcing base classes and repository interfaces. In this post, we’ll look at implementing the `IRepository` interface using the Event Store for storage.
 
-The purpose of this is to provide a sample implementation that you can customise according to the specific needs of your system rather than to provide framework code - for this reason we don't intend to provide a NuGet package of it! The code, along with some integration tests and the necessary supporting files, are available in the <a href="http://github.com/EventStore/getting-started-with-event-store" title="Getting Started With Event Store - Github Repository" target="_blank">GitHub repository for this blog series</a>.
+The purpose of this is to provide a sample implementation that you can customise according to the specific needs of your system rather than to provide framework code - for this reason we don't intend to provide a NuGet package of it! The code, along with some integration tests and the necessary supporting files, are available in the [GitHub repository for this blog series](http://github.com/EventStore/getting-started-with-event-store).
 
 ## The Interface
 
@@ -22,7 +22,7 @@ public interface IRepository
 }
 ```
 
-It’s contained in the CommonDomain.Persistence assembly which is available either through NuGet or by building <a href="https://github.com/joliver/CommonDomain" title="CommonDomain Github" target="_blank">from source</a>. Bear in mind that the NuGet package is ILMerged with Jon Oliver’s own Event Store - our repository contains the CommonDomain packages built to stand alone.
+It’s contained in the CommonDomain.Persistence assembly which is available either through NuGet or by building [from source](https://github.com/joliver/CommonDomain). Bear in mind that the NuGet package is ILMerged with Jon Oliver’s own Event Store - our repository contains the CommonDomain packages built to stand alone.
 
 ## Dependencies
 
@@ -38,7 +38,7 @@ public GetEventStoreRepository(EventStoreConnection eventStoreConnection, Func<T
 
 As expected, we need a reference to an `EventStoreConnection` which is provided as part of the Event Store Client API. The more interesting dependency is the `aggregateIdToStreamName` Func, which is responsible for taking the CLR Type of the aggregate and the Guid used to identify it, and producing a stream name.
 
-Stream names in the Event Store are strings, and we have the convention which can be used whereby stream names of the format `<strong>category</strong><em>-rest</em>` use the prefix before the hyphen as the event category. This can be useful later when using projections (Greg will be covering using them in his <a title="Greg’s blog series on projections" href="http://geteventstore.com/blog/20130212/projections-1-theory/" target="_blank">blog series on projections</a>).
+Stream names in the Event Store are strings, and we have the convention which can be used whereby stream names of the format `category-rest` use the prefix before the hyphen as the event category. This can be useful later when using projections (Greg will be covering using them in his [blog series on projections](/blog/20130212/projections-1-theory)).
 
 Because the category name is used from JavaScript, the default implementation of `aggregateIdToStreamName` converts the name to camel case - so an aggregate of type MyTestAggregate with an ID of `ffe312b9-624a-4a2a-9665-e9ae27dd1d7d` ends up with the stream name `myTestAggregate-ffe312b9-624a-4a2a-9665-e9ae27dd1d7d`.
 

@@ -7,7 +7,7 @@ layout: blog-post
 
 It's been quite a while since our last binary release, a fact which has been commented on by many people on Twitter! However, after a good few months of work, we're finally "done" with version 3 (with some caveats below)! What we've made available today is a public Release Candidate of what we hope to become version 3.0.0 of Event Store.
 
-*tl;dr - You can get the bits <a href="http://geteventstore.com/downloads"/>here</a>. Make sure to stop any projections running in the previous version and start them again with the new version to avoid any issues with recovery.*
+*tl;dr - You can get the bits <a href="/downloads"/>here</a>. Make sure to stop any projections running in the previous version and start them again with the new version to avoid any issues with recovery.*
 
 ##What's in the box?
 

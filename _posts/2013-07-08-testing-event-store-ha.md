@@ -10,7 +10,7 @@ As we prepare to release Event Store 2.0.0 binaries (the source code was just me
 We get many questions asking how the clustered version behaves during network partitions and server failures – [now you can see for yourself](http://ha.geteventstore.com)!
 
 <figure>
-	<img src="{{ site.url }}/images/blog-ha-setup.jpg">
+	<img src="/images/blog-ha-setup.jpg">
 </figure>
 
 The cluster in the picture above is now [connected to the web](http://ha.geteventstore.com) to allow people to see a cluster in action, as well as some of the testing we perform on them. This particular cluster is running a power outage test (and has been for some time). We can also test network partitions both of which the cluster can easily handle.
@@ -18,7 +18,7 @@ The cluster in the picture above is now [connected to the web](http://ha.geteven
 We pull the power on a node programmatically using the device seen here:
 
 <figure>
-	<img src="{{ site.url }}/images/blog-power-switch.jpg">
+	<img src="/images/blog-power-switch.jpg">
 </figure>
 
 Cutting the power as opposed to just killing the process is a very important test for any database, as it tests the true durability of the data (including all the [liars like Intel 520 SSDs, or sneaky operating system caching!](https://github.com/EventStore/EventStore/wiki/Reliability)). It also helps ensure our cluster election logic works reliably and quickly.

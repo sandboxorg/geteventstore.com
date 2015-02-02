@@ -5,7 +5,7 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-Over at [geteventstore.com](http://geteventstore.com) we have 1.0’d the Event Store as an Event Store (e.g. storing/retreiving events/multinode version/etc) but in the process we did not release projections. They are still marked as experimental. Projections are however getting close to ready so its time to write a bit about them as the official documentation takes shape.
+Over at [geteventstore.com](/) we have 1.0’d the Event Store as an Event Store (e.g. storing/retreiving events/multinode version/etc) but in the process we did not release projections. They are still marked as experimental. Projections are however getting close to ready so its time to write a bit about them as the official documentation takes shape.
 
 Through the series we will get fairly deep into their usage but for many the best way to understand them to understand the underlying theory so let's start there.
 
@@ -25,7 +25,7 @@ Then to run it across all of the events (let's imagine we had three) in our syst
 var result = count(count(count(count, 0), event1), event2), event3)
 ```
 
-This operation is known in the functional world as a <a href="http://en.wikipedia.org/wiki/Fold_(higher-order_function)">higher order function -&gt; left-fold</a>. It is a very powerful construct that is useful in solving many problems. <strong>When we talk about Event Sourcing, current state is a left-fold of previous behaviours (events represent the behaviours)</strong>.
+This operation is known in the functional world as a [higher order function -&gt; left-fold](http://en.wikipedia.org/wiki/Fold_(higher-order_function)). It is a very powerful construct that is useful in solving many problems. **When we talk about Event Sourcing, current state is a left-fold of previous behaviours (events represent the behaviours)**.
 
 Projections at their heart allow for the specializing of a generalized function. Their underlying model is that of a left-fold. Looking at the above left fold there are a couple of pieces that we could possibly change. The generic version of this function would look something like:
 
@@ -61,7 +61,7 @@ when({
 }
 ```
 
-To see the differences between the two, let's imagine that we had a stream of events.
+To see the differences between the two, let’s imagine that we had a stream of events.
 
 ```
 Something
@@ -95,7 +95,7 @@ The second would end up as
 f2(f2(f1(nil, Something), SomethingElse),SomethingElse)
 ```
 
-Again don't worry too much about the details. We will have a whole post on "when" and pattern matching
+Again don’t worry too much about the details. We will have a whole post on “when” and pattern matching
 
 ### Event Selection
 

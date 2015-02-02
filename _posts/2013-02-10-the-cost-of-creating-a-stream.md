@@ -5,9 +5,9 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-Travelling and watching people using the Event Store I have seen many with a confusion about how streams work. In particular people are worried about the cost of creating a new stream in the system. The Event Store is buit with an expectation that you will have many (<strong>millions</strong>!) streams.
+Travelling and watching people using the Event Store I have seen many with a confusion about how streams work. In particular people are worried about the cost of creating a new stream in the system. The Event Store is buit with an expectation that you will have many (**millions!**) streams.
 
-When people talk about doing Event Sourcing for most models they end up with a stream for every <strong>instance</strong> of an aggregate. Many have been confused into wanting to build a stream for every type of aggregate or for every type of event. This causes a few issues.
+When people talk about doing Event Sourcing for most models they end up with a stream for every *instance* of an aggregate. Many have been confused into wanting to build a stream for every type of aggregate or for every type of event. This causes a few issues.
 
 The first is how do I read back the events then for a specific instance of the aggregate? Many are putting in if statements when they read back. This becomes very inefficient. A second issue is that concurrency is provided on the stream level. As an example if you put all instances into a single stream, writing from one machine to one instance can conflict with another server writing to a different instance.
 
@@ -30,9 +30,9 @@ This projection will create a new stream called "somestream" and emit all of the
 fromAll().whenAny(function(s,e) {linkTo("type-" + e.type, e)})
 ```
 
-This will create N streams (one for each type of event in the system) with all the events of that event type in the stream. These streams are named type-{typename} as an example we could go to the stream type-InventoryItemDeactivated and all events from all streams of type InventoryItemDeactivated will be in the stream. <em>Note there is the "bytype projection built into the Event Store that does this to $et-{typename} that is optimized.</em>
+This will create N streams (one for each type of event in the system) with all the events of that event type in the stream. These streams are named type-{typename} as an example we could go to the stream type-InventoryItemDeactivated and all events from all streams of type InventoryItemDeactivated will be in the stream. *Note there is the "bytype projection built into the Event Store that does this to $et-{typename} that is optimized.*
 
-If we then wanted to have a subscriber that was interested in the two event types we could do a "join" between the two streams. In the javascript projecton language this would be implemented as
+If we then wanted to have a subscriber that was interested in the two event types we could do a “join” between the two streams. In the javascript projecton language this would be implemented as
 
 ```
 fromStreams(["type-InventoryItemDeactived", "type-InventoryItemCreated"]).when( ... )

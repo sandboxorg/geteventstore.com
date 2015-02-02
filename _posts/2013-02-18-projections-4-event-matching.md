@@ -5,7 +5,7 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-In the <a href="http://geteventstore.com/blog/20130217/projections-intermission/">"intermission" post</a> we jumped ahead quite a bit in terms of the complexity of the projection we were building. Let's jump back into our progression of learning bits.
+In the [“intermission” post](/blog/20130217/projections-intermission) we jumped ahead quite a bit in terms of the complexity of the projection we were building. Let's jump back into our progression of learning bits.
 
 The projections we have used so far have used a method called when(). This method allows you to match functions back to types of events. Up until now that has been a single match but you can also use more than one.
 
@@ -24,7 +24,7 @@ $any: $any will match all events to your function. This is useful for example wh
 
 *It is important to remember that as of now $any cannot be under in conjunction with other filters.*
 
-$init: $init gets called before any other handler. The job of $init is to return the initial state that will be passed to the rest of your functions. In the intermission post this handler was used to set up initial state so the other handlers did not have to. The usage can also be seen in looking at the post from the <a href="http://geteventstore.com/blog/20130215/projections-3-using-state/">Projections 3</a>
+$init: $init gets called before any other handler. The job of $init is to return the initial state that will be passed to the rest of your functions. In the intermission post this handler was used to set up initial state so the other handlers did not have to. The usage can also be seen in looking at the post from the [Projections 3](/blog/20130215/projections-3-using-state).
 
 ```javascript
 fromStream('$stats-127.0.0.1:2113').

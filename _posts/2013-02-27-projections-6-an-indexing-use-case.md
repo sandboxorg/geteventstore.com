@@ -5,7 +5,7 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-As we went through in <a href="http://geteventstore.com/blog/20130218/projections-5-indexing/">Projections 5 : Indexing</a>, the `linkTo()` function is capable of emitting pointers to another stream. This can allow you to break apart streams in order to change their partitioning and to allow fast indexing. In this post we will look at a use case of how you can use this functionality.
+As we went through in [Projections 5 : Indexing](/blog/20130218/projections-5-indexing), the `linkTo()` function is capable of emitting pointers to another stream. This can allow you to break apart streams in order to change their partitioning and to allow fast indexing. In this post we will look at a use case of how you can use this functionality.
 
 I have seen no less than 10 custom auditing systems for nservicebus. Everyone seems to want to build out their own custom auditing system. Most involve writing out the messages to a database table then querying off the database table to show results for say a given correlationid or a certain user. Projections and the Event Store can handle this workload quite easily with two small indexing projections.
 

@@ -5,7 +5,7 @@ author: "Greg Young"
 layout: blog-post
 ---
 
-In the [last post](http://geteventstore.com/blog/20130309/projections-7-multiple-streams) we introduced the new concept of `fromStreams([])` that will join multiple streams into a single stream for your fold to be run against. We also introduced options and two options that can be used to control the re-ordering behaviour in a distributed environment. In this post we are going to look at how this concept is used internally in the Event Store in order to provide indexing of queries.
+In the [last post](/blog/20130309/projections-7-multiple-streams) we introduced the new concept of `fromStreams([])` that will join multiple streams into a single stream for your fold to be run against. We also introduced options and two options that can be used to control the re-ordering behaviour in a distributed environment. In this post we are going to look at how this concept is used internally in the Event Store in order to provide indexing of queries.
 
 Let's propose a scenario where you have 80,000,000 events in the Event Store. You wish to write a query that looks like:
 

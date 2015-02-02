@@ -14,6 +14,6 @@ The specific terms of the offer are as follows:
 - Users can commit to the special offer and schedule appliances for delivery no later than 30th November, support contracts will begin from payment of invoices; that could get you another two months free support.
 - Orders must be placed before midnight on the 30th November.
 
-Invoices will be issued upon receipt of order and must be paid within 30 days. Appliances will be shipped upon payment of invoices. We&rsquo;ll even pop a t-shirt and some Ouro stickers in too.
+Invoices will be issued upon receipt of order and must be paid within 30 days. Appliances will be shipped upon payment of invoices. We’ll even pop a t-shirt and some Ouro stickers in too.
 
-Contact <a href="mailto:sales@geteventstore.com">sales@geteventstore.com</a> or <a href="http://geteventstore.com/#multinode">click here for more info</a>.
+Contact [sales@geteventstore.com](mailto:sales@geteventstore.com).
