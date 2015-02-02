@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "Conf Conf",
-            "url": "http://conf-conf.com",
-            "info": "30 Jan 2015, Birmingham, UK",
-            "countrycode": "gb"
-        },
-        {
             "name": "VOXXED Days Vienna",
             "url": "https://www.voxxed.com/days-vienna15",
             "info": "6 Feb 2015, Vienna, Austria",
@@ -20,6 +14,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "Conf Conf",
+            "url": "http://conf-conf.com",
+            "info": "30 Jan 2015, Birmingham, UK",
+            "countrycode": "gb"
+        },
         {
             "name": "Riga Dev Day",
             "url": "http://rigadevday.lv",
