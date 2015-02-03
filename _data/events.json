@@ -1,6 +1,12 @@
 {
     "events":[
         {
+            "name": "NY DDD Meetup",
+            "url": "http://www.meetup.com/dddnyc/events/219575503",
+            "info": "4 Feb 2015, NYC, US",
+            "countrycode": "us"
+        },
+        {
             "name": "VOXXED Days Vienna",
             "url": "https://www.voxxed.com/days-vienna15",
             "info": "6 Feb 2015, Vienna, Austria",
