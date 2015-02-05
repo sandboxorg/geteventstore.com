@@ -2,13 +2,13 @@
     "blogs":[
         {
             "name": "Event Store Blog",
-            "url": "http://geteventstore.com/blog"
+            "url": "https://geteventstore.com/blog"
         }
     ],
     "videos": [
         {
             "name": "Ouro’s 2nd Birthday",
-            "url": "http://geteventstore.com/blog/20141112/video-of-ouros-2nd-birthday"
+            "url": "https://geteventstore.com/blog/20141112/video-of-ouros-2nd-birthday"
         },
         {
             "name": "Event Store as a Read Model",
@@ -37,7 +37,7 @@
         },
         {
             "name": "Papercraft Ouro Template",
-            "url": "http://geteventstore.com/downloads/papercraft-ouro.pdf"
+            "url": "https://geteventstore.com/downloads/papercraft-ouro.pdf"
         }
     ]
 }

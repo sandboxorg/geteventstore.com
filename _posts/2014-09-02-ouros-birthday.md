@@ -23,4 +23,4 @@ course, some ouro-themed goodies!
 
 If you'd like to come along, please register (for free!) via EventBrite so we
 know how much food and beer to buy - you can find more information and the sign
-up page [here](http://geteventstore.com/two-years-on/)!
+up page [here](https://geteventstore.com/two-years-on/)!

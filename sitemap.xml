@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://geteventstore.com</loc>
+		<loc>https://geteventstore.com</loc>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/features</loc>
+		<loc>https://geteventstore.com/features</loc>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	<url>
-		<loc>http://geteventstore.com/downloads</loc>
+		<loc>https://geteventstore.com/downloads</loc>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	</url>
@@ -20,22 +20,22 @@
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/support</loc>
+		<loc>https://geteventstore.com/support</loc>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/community</loc>
+		<loc>https://geteventstore.com/community</loc>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/blog</loc>
+		<loc>https://geteventstore.com/blog</loc>
 		<changefreq>daily</changefreq>
 		<priority>2</priority>
 	</url>
 	<url>
-		<loc>http://geteventstore.com/about</loc>
+		<loc>https://geteventstore.com/about</loc>
 		<changefreq>weekly</changefreq>
 		<priority>2</priority>
 	</url>

@@ -143,4 +143,4 @@ es.appendToStream(STREAM_NAME, new ResponseReceiver() {
 es.close();
 ```
 
-Stanislavas will be one of the speakers at our [birthday party event](http://geteventstore.com/two-years-on) in London on the 17th September!
+Stanislavas will be one of the speakers at our [birthday party event](https://geteventstore.com/two-years-on) in London on the 17th September!
