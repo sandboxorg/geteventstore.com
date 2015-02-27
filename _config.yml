@@ -4,3 +4,6 @@ url: "https://geteventstore.com"
 permalink: /blog/:year:month:day/:title/index.html
 markdown: redcarpet
 highlighter: pygments
+sass:
+    sass_dir: _sass
+    style: compressed
