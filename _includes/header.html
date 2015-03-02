@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     {% if page.title == "Community" or page.title == "Support" %}<meta name="viewport" content="width=device-width, initial-scale=1">{% else %}<meta name="viewport" content="width=1024">{% endif %}
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description == null %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//code.jquery.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
