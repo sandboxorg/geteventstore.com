@@ -1,6 +1,6 @@
 ---
 title: "Event Store 3.0.2 Released"
-date: 2014-11-12T12:00Z
+date: 2015-03-09T12:00Z
 author: "James Nugent"
 layout: blog-post
 ---
