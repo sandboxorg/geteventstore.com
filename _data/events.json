@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "QCon London",
-            "url": "http://qconlondon.com",
-            "info": "4–6 Mar 2015, London, UK",
-            "countrycode": "gb"
-        },
-        {
             "name": "Johannesburg Dev UG",
             "url": "http://www.meetup.com/DeveloperUG/events/212155662",
             "info": "12 May 2015, Johannesburg, South Africa",
@@ -20,6 +14,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "QCon London",
+            "url": "http://qconlondon.com",
+            "info": "4–6 Mar 2015, London, UK",
+            "countrycode": "gb"
+        },
         {
             "name": "F#unctional Londoners",
             "url": "https://skillsmatter.com/meetups/6930-show-and-tell-with-greg-young",
