@@ -61,6 +61,9 @@
         width: auto;
         max-width: 45rem;
 		margin: 0 0 1.5rem 0;
+        @media (max-width: 720px), (max-device-width: 720px) {
+            margin: 0;
+        }
 	}
 	.call-to-action {
 		text-align: left;
@@ -68,9 +71,15 @@
 	.btn {
 		font-size: 1rem;
 		line-height: 1.5rem;
+        @media (max-width: 720px), (max-device-width: 720px) {
+            display: block;
+        }
 	}
 	.btn--primary {
 		color: $white;
+        @media (max-width: 720px), (max-device-width: 720px) {
+            margin: 0.75rem 0;
+        }
 	}
 	.btn--secondary {
 		border-color: $grey-light;
@@ -82,6 +91,9 @@
 	}
     @media (max-width: 1000px), (max-device-width: 1000px) {
         background-image: none;
+    }
+    @media (max-width: 800px), (max-device-width: 800px) {
+        text-align: center;
     }
 }
 
@@ -200,7 +212,7 @@
 }
 
 .feature-list {
-    margin: 0 -1.5rem 3rem;
+    margin: 0;
     padding: 0;
     list-style: none;
     &:after {
@@ -208,11 +220,13 @@
         display: table;
         clear: both;
     }
+    @media (min-width: 800px) {
+        margin: 0 -1.5rem 3rem;
+    }
 }
 
 .feature-list__item {
     width: 100%;
-    padding: 0 1.5rem;
     img {
         position: relative;
         top: 1rem;
@@ -223,6 +237,7 @@
     @media (min-width: 800px) {
         float: left;
         width: 33.333%;
+        padding: 0 1.5rem;
     }
 }
 
