@@ -29,7 +29,7 @@ $init: $init gets called before any other handler. The job of $init is to return
 ```javascript
 fromStream('$stats-127.0.0.1:2113').
     when({
-        "$stats-collected" : function(s,e) {
+        "$statsCollected" : function(s,e) {
               var currentCpu = e.body["sys-cpu"];
               if(currentCpu > 40) {
                    if(!s.count) s.count = 0;
@@ -50,7 +50,7 @@ In this projection the line if(!s.count) s.count = 0 is being used to initialize
 fromStream('$stats-127.0.0.1:2113').
     when({
         "$init" : function(s,e) { return {"count":0},
-        "$stats-collected" : function(s,e) {
+        "$statsCollected" : function(s,e) {
               var currentCpu = e.body["sys-cpu"];
               if(currentCpu > 40) {
                    s.count += 1;

@@ -20,7 +20,7 @@ If you click on one of the events you should be able to see the actual data from
 ```javascript
 fromStream('$stats-127.0.0.1:2113').
     when({
-        "$stats-collected" : function(s,e) {
+        "$statsCollected" : function(s,e) {
               var currentCpu = e.body["sys-cpu"];
               if(currentCpu > 40) {
                    emit("heavycpu", "heavyCpuFound", {"level" : currentCpu})

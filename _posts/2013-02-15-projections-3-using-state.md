@@ -10,7 +10,7 @@ In [Projections 2](/blog/20130213/projections-2-a-simple-sep-projection) we look
 ```javascript
 fromStream('$stats-127.0.0.1:2113').
     when({
-        "$stats-collected" : function(s,e) {
+        "$statsCollected" : function(s,e) {
               var currentCpu = e.body["sys-cpu"];
               if(currentCpu > 40) {
                    emit("heavycpu", "heavyCpuFound", {"level" : currentCpu})
@@ -32,7 +32,7 @@ Let's try to change our problem from Projections 2 into one like this. I am only
 ```javascript
 fromStream('$stats-127.0.0.1:2113').
     when({
-        "$stats-collected" : function(s,e) {
+        "$statsCollected" : function(s,e) {
               var currentCpu = e.body["sys-cpu"];
               if(currentCpu > 40) {
                    if(!s.count) s.count = 0;
