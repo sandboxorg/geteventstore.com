@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": ".NET Fringe",
-            "url": "http://dotnetfringe.org",
-            "info": "12–14 April 2015, Portland OR, USA",
-            "countrycode": "us"
-        },
-        {
             "name": "DevOps Days Austin",
             "url": "http://www.devopsdays.org/events/2015-austin/",
             "info": "4–5 May 2015, Austin TX, USA",
@@ -62,6 +56,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": ".NET Fringe",
+            "url": "http://dotnetfringe.org",
+            "info": "12–14 April 2015, Portland OR, USA",
+            "countrycode": "us"
+        },
         {
             "name": "QCon London",
             "url": "http://qconlondon.com",
