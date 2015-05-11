@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "Codeaholics",
-            "url": "http://www.meetup.com/Codeaholics/events/222150540/",
-            "info": "6 May 2015, Hong Kong",
-            "countrycode": "hk"
-        },
-        {
             "name": "Johannesburg Dev UG",
             "url": "http://www.meetup.com/DeveloperUG/events/212155662",
             "info": "12 May 2015, Johannesburg, South Africa",
@@ -56,6 +50,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "Codeaholics",
+            "url": "http://www.meetup.com/Codeaholics/events/222150540/",
+            "info": "6 May 2015, Hong Kong",
+            "countrycode": "hk"
+        },
         {
             "name": ".NET Fringe",
             "url": "http://dotnetfringe.org",
