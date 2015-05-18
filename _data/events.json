@@ -1,12 +1,6 @@
 {
     "events":[
         {
-            "name": "Johannesburg Dev UG",
-            "url": "http://www.meetup.com/DeveloperUG/events/212155662",
-            "info": "12 May 2015, Johannesburg, South Africa",
-            "countrycode": "za"
-        },
-        {
             "name": "QCon New York",
             "url": "https://qconnewyork.com",
             "info": "10–12 June 2015, NYC, USA",
@@ -50,6 +44,12 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "Johannesburg Dev UG",
+            "url": "http://www.meetup.com/DeveloperUG/events/212155662",
+            "info": "12 May 2015, Johannesburg, South Africa",
+            "countrycode": "za"
+        },
         {
             "name": "Codeaholics",
             "url": "http://www.meetup.com/Codeaholics/events/222150540/",
