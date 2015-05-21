@@ -41,6 +41,12 @@
             "url": "http://buildstuff.lt",
             "info": "18–20 Nov 2015, Vilnius, Lithuania",
             "countrycode": "lt"
+        },
+        {
+            "name": "Build Stuff 2015 Ukraine",
+            "url": "http://buildstuff.com.ua",
+            "info": "13–24 Nov 2015, Kiev, Ukraine",
+            "countrycode": "ua"
         }
     ],
     "pastevents":[
