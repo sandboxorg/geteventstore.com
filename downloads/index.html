@@ -4,107 +4,154 @@ description: "Download Event Store binaries for Windows, Linux or Mac OS X."
 ---
 
 <style>
-	.download-buttons {
-		a {
-			display: block;
-			margin: 0 0 0.75rem;
-			text-align: center;
-		}
-	}
+    .download-buttons a {
+        display: block;
+        margin: 0 0 0.75rem;
+        text-align: center;
+    }
+    .download-icon-container {
+        text-align: center;
+    }
+    .download-icon {
+        height: 9rem;
+    }
+    .downloads__previous-versions table {
+        width: 100%;
+    }
+    .page-section--banner .lead {
+        max-width: 54rem;
+        margin: 1.5rem auto !important;
+        text-align: center;
+    }
+    @media (min-width: 720px) {
+        .download-icon-container {
+            text-align: left;
+            text-indent: 3rem;
+        }
+        .download-icon {
+            height: 16.5rem;
+        }
+        .downloads__other {
+            margin-right: 4.5rem;
+        }
+    }
 </style>
 
 {% include header.html %}
-    <div class="container">
-		<div class="page-header page-header--downloads">
-			<h1>{{ page.title }}</h1>
-			<p class="lead">Download the latest version of the Event Store binaries from this page to get started right away, or take a look at our source code on <a href="https://github.com/EventStore/EventStore">GitHub</a>.</p>
-		</div>
-		<div class="page-main">
-			<h2>Current Stable Release</h2>
-			<p class="call-to-action download-buttons">
-				<a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.5.zip" class="btn btn--primary">Get Event Store 3.0.5 for Windows</a>
-				<a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.5.tar.gz" class="btn btn--primary">Get Event Store 3.0.5 for Linux</a>
-				<a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.5.tar.gz" class="btn btn--primary">Get Event Store 3.0.5 for Mac OS X</a>
-			</p>
-			<h2>Client APIs</h2>
-			<p>The .NET client API is available either as part of the packages or on NuGet. The package name is <a href="http://nuget.org/packages/EventStore.Client">EventStore.Client</a>.</p>
-			<p>The JVM client using Akka is available on GitHub or Maven. The repository is <a href="https://github.com/EventStore/EventStore.JVM">EventStore.JVM</a>.
-
-			<h2>Tools</h2>
-			<p><a href="http://download.geteventstore.com/binaries/ProjectionsUpgrade-v1.x-v2.0.0.zip">Projections Upgrade Tool (1.x to 2.x)</a></p>
-			<h2>Previous Versions of Event Store</h2>
-			<h3>Event Store 3</h3>
-			<p>When upgrading to v3.0.x from v2 with an existing database, it is necessary to stop all projections which are running in v2 before upgrading, and restart them when the upgrade is complete.</p>
-			<table>
-				<tbody>
-					<tr>
-						<td>Event Store 3.0.3</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.3.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.3.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.3.tar.gz">Mac OS X</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 3.0.2</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.2.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.2.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.2.tar.gz">Mac OS X</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 3.0.1</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.1.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.1.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.1.tar.gz">Mac OS X</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 3.0.0</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0.tar.gz">Mac OS X</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 3.0.0 RC9</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0-rc9.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0-rc9.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0-rc9.tar.gz">Mac OS X</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 3.0.0 RC2</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0-rc2.zip">Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0-rc2.tar.gz">Linux</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0-rc2.tar.gz">Mac OS X</a></td>
-					</tr>
-			</table>
-
-			<h3>Event Store 2</h3>
-			<table>
-				<tbody>
-					<tr>
-						<td>Event Store 2.0.1</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v2.0.1.zip">Get for Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v2.0.1.tar.gz">Get for Linux</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 2.0.0</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v2.0.0.zip">Get for Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v2.0.0.tar.gz">Get for Linux</a></td>
-					</tr>
-				</tbody>
-			</table>
-			
-			<h3>Event Store 1</h3>
-			<table>
-				<tbody>
-					<tr>
-						<td>Event Store 1.0.1</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v1.0.1.zip">Get for Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v1.0.1.tar.gz">Get for Linux</a></td>
-					</tr>
-					<tr>
-						<td>Event Store 1.0.0</td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v1.0.0.zip">Get for Windows</a></td>
-						<td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v1.0.0.tar.gz">Get for Linux</a></td>
-					</tr>
-			</table>
-		</div>
-	</div>
+    <div class="page-title">
+        <div class="inner-container">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="page-section--support-banner">
+        <div class="inner-container">
+            <div class="page-section__half download-icon-container">
+                <img class="download-icon" src="../images/download.svg">
+            </div>
+            <div class="page-section__half">
+                <p class="call-to-action download-buttons">
+                    <a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.5.zip" class="btn btn--primary">Get Event Store 3.0.5 for Windows</a>
+                    <a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.5.tar.gz" class="btn btn--primary">Get Event Store 3.0.5 for Linux</a>
+                    <a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.5.tar.gz" class="btn btn--primary">Get Event Store 3.0.5 for Mac OS X</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="page-section--banner">
+        <div class="inner-container">
+            <p class="lead">Download the latest Event Store binaries for your chosen platform here. If you’d like to browser the source code, or contribute, check out the <a href="https://github.com/eventstore/eventstore">GitHub repository</a>.</p>
+        </div>
+    </div>
+    <div class="page-section">
+        <div class="inner-container">
+            <div class="page-section__half">
+                <div class="downloads__other">
+                    <h2>Client APIs</h2>
+                    <p>The .NET client API is available either as part of the packages or on NuGet. The package name is <a href="http://nuget.org/packages/EventStore.Client">EventStore.Client</a>.</p>
+                    <p>The JVM client using Akka is available on GitHub or Maven. The repository is <a href="https://github.com/EventStore/EventStore.JVM">EventStore.JVM</a>.
+                    <h2>Tools</h2>
+                    <p><a href="http://download.geteventstore.com/binaries/ProjectionsUpgrade-v1.x-v2.0.0.zip">Projections Upgrade Tool (1.x to 2.x)</a></p>
+                </div>
+            </div>
+            <div class="page-section__half">
+                <div class="downloads__previous-versions">
+                    <h2>Previous Versions of Event Store</h2>
+                    <h3>Event Store 3</h3>
+                    <p>When upgrading to v3.0.x from v2 with an existing database, it is necessary to stop all projections which are running in v2 before upgrading, and restart them when the upgrade is complete.</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Event Store 3.0.4</td>
+                                <td colspan="3">See <a href="https://github.com/EventStore/EventStore/releases/tag/oss-v3.0.5">3.0.5 release notes</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.3</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.3.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.3.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.3.tar.gz">Mac OS X</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.2</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.2.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.2.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.2.tar.gz">Mac OS X</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.1</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.1.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.1.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.1.tar.gz">Mac OS X</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.0</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0.tar.gz">Mac OS X</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.0 RC9</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0-rc9.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0-rc9.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0-rc9.tar.gz">Mac OS X</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 3.0.0 RC2</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.0.0-rc2.zip">Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v3.0.0-rc2.tar.gz">Linux</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.0-rc2.tar.gz">Mac OS X</a></td>
+                            </tr>
+                    </table>
+                    <h3>Event Store 2</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Event Store 2.0.1</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v2.0.1.zip">Get for Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v2.0.1.tar.gz">Get for Linux</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 2.0.0</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v2.0.0.zip">Get for Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v2.0.0.tar.gz">Get for Linux</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>Event Store 1</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Event Store 1.0.1</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v1.0.1.zip">Get for Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v1.0.1.tar.gz">Get for Linux</a></td>
+                            </tr>
+                            <tr>
+                                <td>Event Store 1.0.0</td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Win-v1.0.0.zip">Get for Windows</a></td>
+                                <td><a href="http://download.geteventstore.com/binaries/EventStore-OSS-Linux-v1.0.0.tar.gz">Get for Linux</a></td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 {% include footer.html %}
