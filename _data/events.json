@@ -1,6 +1,12 @@
 {
     "events":[
         {
+            "name": "Johannesburg Dev UG",
+            "url": "http://www.meetup.com/DeveloperUG/events/212155682/",
+            "info": "9 June 2015, Johannesburg, South Africa",
+            "countrycode": "za"
+        },
+        {
             "name": "QCon New York",
             "url": "https://qconnewyork.com",
             "info": "10–12 June 2015, NYC, USA",
