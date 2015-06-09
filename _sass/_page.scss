@@ -48,7 +48,7 @@
 .page-header--homepage {
     margin-top: -1.5rem;
 	margin-bottom: 1.5rem;
-	padding: 2.25rem 0 0.75rem;
+	padding: 2.25rem 0 1.5rem;
 	text-align: left;
     background-color: $grey-dark;
     color: $white;
@@ -60,7 +60,7 @@
     }
 	h1 {
         width: auto;
-        padding: 5.25rem 0;
+        padding: 3rem 0 0;
         max-width: 45rem;
 		margin: 0 0 1.5rem 0;
         @media (max-width: 720px), (max-device-width: 720px) {
@@ -74,6 +74,32 @@
     }
     @media (max-width: 800px), (max-device-width: 800px) {
         text-align: center;
+    }
+}
+
+.c2a {
+    display: block;
+    max-width: 100%;
+    padding: 1.5rem 0 2.25rem;
+    a {
+        display: block;
+        color: $white;
+        margin: 0.375rem 0;
+    }
+    @media (min-width: 600px) {
+        margin: 0 -0.375rem;
+        a {
+            display: inline-block;
+            margin: 0.375rem;
+        }
+    }
+    .btn--secondary {
+        border-color: #586b7f !important;
+        background: #586b7f;
+        &:focus, &:hover {
+            background: lighten(#586b7f, 5%);
+            border-color: lighten(#586b7f, 5%);
+        }
     }
 }
 
