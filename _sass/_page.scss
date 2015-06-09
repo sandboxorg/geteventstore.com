@@ -130,8 +130,7 @@
 }
 
 .team-list {
-	width: 50rem !important;
-	margin: 1.5rem auto 0 !important;
+    margin: 0 -0.75rem;
 	padding: 0;
 	list-style: none;
 	li {
@@ -141,7 +140,7 @@
 		padding: 0.75rem;
 		float: left;
 		display: inline-block;
-		width: 25%;
+		width: 50%;
 		line-height: 1rem;
 		img, h2, p {
 			width: 100%;
@@ -161,6 +160,15 @@
             font-size: 0.75rem;
             line-height: 0.75rem;
 		}
+        @media (min-width: 600px) {
+            width: 50%;
+        }
+        @media (min-width: 720px) {
+            width: 25%;
+        }
+        @media (min-width: 1000px) {
+            width: 20%;
+        }
 	}
 }
 
