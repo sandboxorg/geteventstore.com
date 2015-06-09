@@ -313,6 +313,8 @@
 
 .feature-list__item {
     width: 100%;
+    -webkit-animation: fade-on-load 1.5s ease-out;
+            animation: fade-on-load 1.5s ease-out;
     img {
         position: relative;
         top: 1rem;
