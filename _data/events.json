@@ -1,28 +1,10 @@
 {
     "events":[
         {
-            "name": "Johannesburg Dev UG",
-            "url": "http://www.meetup.com/DeveloperUG/events/212155682/",
-            "info": "9 June 2015, Johannesburg, South Africa",
+            "name": "JSinSA",
+            "url": "http://www.jsinsa.com/jsinsa/2015/index.html",
+            "info": "11 July 2015, Joannesburg, South Africa",
             "countrycode": "za"
-        },
-        {
-            "name": "QCon New York",
-            "url": "https://qconnewyork.com",
-            "info": "10–12 June 2015, NYC, USA",
-            "countrycode": "us"
-        },
-        {
-            "name": "DDD eXchange 2015",
-            "url": "https://skillsmatter.com/conferences/6453-ddd-exchange-2015",
-            "info": "12 June 2015, London, UK",
-            "countrycode": "gb"
-        },
-        {
-            "name": "NDC Oslo",
-            "url": "http://ndcoslo.com",
-            "info": "15–19 June 2015, Oslo, Norway",
-            "countrycode": "no"
         },
         {
             "name": "KCDC 2015",
@@ -56,6 +38,30 @@
         }
     ],
     "pastevents":[
+        {
+            "name": "Johannesburg Dev UG",
+            "url": "http://www.meetup.com/DeveloperUG/events/212155682/",
+            "info": "9 June 2015, Johannesburg, South Africa",
+            "countrycode": "za"
+        },
+        {
+            "name": "QCon New York",
+            "url": "https://qconnewyork.com",
+            "info": "10–12 June 2015, NYC, USA",
+            "countrycode": "us"
+        },
+        {
+            "name": "DDD eXchange 2015",
+            "url": "https://skillsmatter.com/conferences/6453-ddd-exchange-2015",
+            "info": "12 June 2015, London, UK",
+            "countrycode": "gb"
+        },
+        {
+            "name": "NDC Oslo",
+            "url": "http://ndcoslo.com",
+            "info": "15–19 June 2015, Oslo, Norway",
+            "countrycode": "no"
+        },
         {
             "name": "Johannesburg Dev UG",
             "url": "http://www.meetup.com/DeveloperUG/events/212155662",
