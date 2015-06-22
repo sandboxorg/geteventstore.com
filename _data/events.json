@@ -1,16 +1,16 @@
 {
     "events":[
         {
-            "name": "JSinSA",
-            "url": "http://www.jsinsa.com/jsinsa/2015/index.html",
-            "info": "11 July 2015, Joannesburg, South Africa",
-            "countrycode": "za"
-        },
-        {
             "name": "KCDC 2015",
             "url": "http://www.kcdc.info",
             "info": "24–26 June 2015, Kansas City KA, USA",
             "countrycode": "us"
+        },
+        {
+            "name": "JSinSA",
+            "url": "http://www.jsinsa.com/jsinsa/2015/index.html",
+            "info": "11 July 2015, Joannesburg, South Africa",
+            "countrycode": "za"
         },
         {
             "name": "Code on the Beach",
