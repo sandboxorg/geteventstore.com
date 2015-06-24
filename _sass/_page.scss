@@ -156,6 +156,12 @@
         text-align: center;
         font-weight: 700;
     }
+    figure {
+        margin: 1.5rem 0;
+    }
+    figure, img {
+        width: 100%;
+    }
     time {
         display: block;
         text-align: center;
