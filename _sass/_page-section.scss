@@ -314,12 +314,12 @@
 .discussion-icons__item--google-group {
     @extend .discussion-icons__item;
     a {
-        background: #2196F3;
+        background: #4285F4;
         @media (min-width: 720px) {
-            background-image: url('../images/google.svg');
+            background-image: url('../images/google-new.svg');
             background-position: center 2.25rem;
             background-repeat: no-repeat;
-            background-size: 6rem;
+            background-size: 4rem;
         }
     }
 }
