@@ -8,7 +8,7 @@ Event Store v3.2.0 is now released! The headline feature is support for the "com
 
 This follows hot on the heels of v3.1.0, which was quietly released a little over three weeks ago, and adds many features, some of which had been on the `dev` branch (more posts on that over the next week) for a while.
 
-This is the first upgrade released primarily via our package repository for Ubuntu 14.04. This means that to upgrade, assuming you are tracking the `main` component of the repository, a simple `apt-get update && apt-get nstall --only-upgrade eventstore-oss` should upgrade you. If you have the version component pinned, you can move it to the `v3.2.0` component and upgrade in the same manner.
+This is the first upgrade released primarily via our package repository for Ubuntu 14.04. This means that to upgrade, assuming you are tracking the `main` component of the repository, a simple `apt-get update && apt-get install --only-upgrade eventstore-oss` should upgrade you. If you have the version component pinned, you can move it to the `v3.2.0` component and upgrade in the same manner.
 
 There is also an accompanying update to the .NET Client API and the Embedded Client - these are now in the NuGet gallery.
 
