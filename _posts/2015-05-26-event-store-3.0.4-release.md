@@ -4,7 +4,7 @@ author: "James Nugent"
 layout: blog-post
 ---
 
-Event Store v3.0.4 contains a fix for a bug in initial replication of merged transaction file chunks, and numerous fixes in the user interface. It is now available both to users of the open-source product, and to commercial customers. Commercial customers will find the release builds of Event Store HA 3.0.4 in their download areas.
+Event Store 3.0.4 contains a fix for a bug in initial replication of merged transaction file chunks, and numerous fixes in the user interface. It is now available both to users of the open-source product, and to commercial customers. Commercial customers will find the release builds of Event Store 3.0.4 in their download areas.
 
 The release notes for Event Store 3.0.3 are below.
 
