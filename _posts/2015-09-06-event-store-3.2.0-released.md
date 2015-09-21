@@ -4,17 +4,17 @@ author: "James Nugent"
 layout: blog-post
 ---
 
-Event Store v3.2.0 is now released! The headline feature is support for the "competing consumers" messaging pattern with Persistent Subscriptions, but there have been numerous other improvements.
+Event Store 3.2.0 is now released! The headline feature is support for the “competing consumers” messaging pattern with *Persistent Subscriptions*, but there have been numerous other improvements.
 
-This follows hot on the heels of v3.1.0, which was quietly released a little over three weeks ago, and adds many features, some of which had been on the `dev` branch (more posts on that over the next week) for a while.
+This follows hot on the heels of 3.1.0, which was quietly released a little over three weeks ago, and adds many features, some of which had been on the `dev` branch (more posts on that over the next week) for a while.
 
-This is the first upgrade released primarily via our package repository for Ubuntu 14.04. This means that to upgrade, assuming you are tracking the `main` component of the repository, a simple `apt-get update && apt-get install --only-upgrade eventstore-oss` should upgrade you. If you have the version component pinned, you can move it to the `v3.2.0` component and upgrade in the same manner.
+This is the first upgrade released primarily via our package repository for Ubuntu 14.04. This means that to upgrade, assuming you are tracking the `main` component of the repository, a simple `apt-get update && apt-get install --only-upgrade eventstore-oss` should upgrade you. If you have the version component pinned, you can move it to the `§.2.0` component and upgrade in the same manner.
 
 There is also an accompanying update to the .NET Client API and the Embedded Client - these are now in the NuGet gallery.
 
-The release notes for v3.2.0 are listed below, along with the release notes for v3.1.0 for completeness (they were posted on the GitHub release but never on this blog).
+The release notes for 3.2.0 are listed below, along with the release notes for 3.1.0 for completeness (they were posted on the GitHub release but never on this blog).
 
-#Release Notes - Event Store v3.2.0
+#Release Notes - Event Store 3.2.0
 
 ##Event Store Server
 
@@ -33,7 +33,7 @@ The release notes for v3.2.0 are listed below, along with the release notes for 
 - #604 - **(All Platforms)** - The use of SpinLocks has been removed.
 - #601 - **(Mac OS X)** - Memory statistics now work correctly on OS X
 - #635 - **(All Platforms)** - Several occurences of poor English grammar in exception and log messages have been rectified.
-- Config - **(All Platforms)** - The `/info` endpoint now reports the correct version number. 
+- Config - **(All Platforms)** - The `/info` endpoint now reports the correct version number.
 - #582 - **(All Platforms)** - Windows packages now have the correct ordering of filename components.
 - #583 - **(Mac OS X)** - Mac OS X packaging scripts are now compatible with BSD `sed` as well as GNU `sed`.
 
@@ -52,7 +52,7 @@ The release notes for v3.2.0 are listed below, along with the release notes for 
 
 - #589 - **(All Platforms)** -  Authentication is now supported in the Embedded Client (#589)
 
-#Release Notes - Event Store v3.1.0
+#Release Notes - Event Store 3.1.0
 
 ## Event Store Server
 
