@@ -1,8 +1,12 @@
 [
     {
         "os": "ubuntu-14.04",
-        "currentVersion": "3.3.1",
+        "currentVersion": "3.4.0",
         "downloads": [
+            {
+                "version": "3.4.0",
+                "url": "http://download.geteventstore.com/binaries/EventStore-OSS-Ubuntu-14.04-v3.4.0.tar.gz"
+            },
             {
                 "version": "3.3.1",
                 "url": "http://download.geteventstore.com/binaries/EventStore-OSS-Ubuntu-v3.3.1.tar.gz"
@@ -75,8 +79,12 @@
     },
     {
         "os": "osx-10.10",
-        "currentVersion": "3.3.1",
+        "currentVersion": "3.4.0",
         "downloads": [
+            {
+                "version": "3.4.0",
+                "url": "http://download.geteventstore.com/binaries/EventStore-OSS-MacOSX-v3.4.0.tar.gz"
+            },
             {
                 "version": "3.3.1",
                 "url": "http://download.geteventstore.com/binaries/EventStore-OSS-MacOSX-v3.3.1.tar.gz"
@@ -133,8 +141,12 @@
     },
     {
         "os": "win",
-        "currentVersion": "3.3.1",
+        "currentVersion": "3.4.0",
         "downloads": [
+            {
+                "version": "3.4.0",
+                "url": "http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.4.0.zip"
+            },
             {
                 "version": "3.3.1",
                 "url": "http://download.geteventstore.com/binaries/EventStore-OSS-Win-v3.3.1.zip"
