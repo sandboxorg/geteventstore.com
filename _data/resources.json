@@ -23,12 +23,10 @@
         {
             "name": "YoEight’s Haskell TCP Client",
             "url": "https://github.com/YoEight/eventstore",
-            "flag": "new"
         },
         {
             "name": "Arkency’s Ruby HTTP Connector",
             "url": "https://github.com/arkency/http_eventstore",
-            "flag": "new"
         }
     ],
     "goodies": [
