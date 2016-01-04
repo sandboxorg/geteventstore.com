@@ -1,10 +1,12 @@
 {
     "events":[
+    ],
+    "pastevents":[
         {
-            "name": "IT/Dev Connections",
-            "url": "http://devconnections.com",
-            "info": "14–17 Sept 2015, Las Vegas NV, USA",
-            "countrycode": "us"
+            "name": "Build Stuff 2015 Ukraine",
+            "url": "http://buildstuff.com.ua",
+            "info": "23–24 Nov 2015, Kiev, Ukraine",
+            "countrycode": "ua"
         },
         {
             "name": "Build Stuff 2015",
@@ -13,13 +15,11 @@
             "countrycode": "lt"
         },
         {
-            "name": "Build Stuff 2015 Ukraine",
-            "url": "http://buildstuff.com.ua",
-            "info": "23–24 Nov 2015, Kiev, Ukraine",
-            "countrycode": "ua"
-        }
-    ],
-    "pastevents":[
+            "name": "IT/Dev Connections",
+            "url": "http://devconnections.com",
+            "info": "14–17 Sept 2015, Las Vegas NV, USA",
+            "countrycode": "us"
+        },
         {
             "name": "Dev2 Community",
             "url": "https://www.eventbrite.com/e/dev-evening-5-aug-545pm-tickets-17673272233",
