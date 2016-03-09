@@ -7,4 +7,4 @@ layout: blog-post
 
 In September we held a party in London to celebrate the company—and more importantly our mascot, Ouro—turning two years old. At the party we showed off version 3.0.0 of Event Store. We also gave the stage to four of our community members to share their experience of developing their projects with Event Store.
 
-<iframe width="864" height="486" src="//www.youtube.com/embed/0aVCXXGNELo" frameborder="0" allowfullscreen></iframe>
+The video of this event is no longer available.

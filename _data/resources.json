@@ -7,10 +7,6 @@
     ],
     "videos": [
         {
-            "name": "Ouro’s 2nd Birthday",
-            "url": "https://geteventstore.com/blog/20141112/video-of-ouros-2nd-birthday"
-        },
-        {
             "name": "Event Store as a Read Model",
             "url": "https://skillsmatter.com/skillscasts/3836-event-store-as-a-read-model"
         },
