@@ -1,5 +1,17 @@
 {
     "events":[
+        {
+            "name": "Build Stuff 2016",
+            "url": "http://buildstuff.lt",
+            "info": "16–20 Nov 2016, Vilnius, Lithuania",
+            "countrycode": "lt"
+        },
+        {
+            "name": "Build Stuff 2016 Ukraine",
+            "url": "http://buildstuff.com.ua",
+            "info": "21–22 Nov 2016, Kiev, Ukraine",
+            "countrycode": "ua"
+        }
     ],
     "pastevents":[
         {
